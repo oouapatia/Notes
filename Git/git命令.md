@@ -83,6 +83,10 @@
 
   `git remote add origin git@github.com:xxx/xxx.git`
 
+  - 使用`token`
+
+    `git remote add origin https://<token>@github.com/xxx/xxx.git `
+
   `origin`为取的名字
 
 - 清除远程库
