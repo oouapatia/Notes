@@ -6,7 +6,7 @@
 
   **解决：**
 
-  > 需要配置 Launch.json 里 "program":项为 "${fileDirname}/${fileBasenameNoExtension}"
+  > 需要配置 Launch.json 里 "program":项为 `${fileDirname}/${fileBasenameNoExtension}`
 
 
 
