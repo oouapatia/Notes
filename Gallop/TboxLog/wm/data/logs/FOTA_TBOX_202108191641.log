@@ -1,0 +1,448 @@
+[2021/08/19 16:41:11 310] [FOTA#Transport][D][WM_FOTA_ICEHUCommunicationClient.cpp:117:Initialize] WM_FOTA_ICEHUCommunicationClient::Initialize
+[2021/08/19 16:41:11 426] [FOTA#Transport][D][WM_FOTA_ICETBoxCommunicationServer.cpp:93:Initialize] WM_FOTA_ICETBoxCommunicationServer::Initialize +++
+[2021/08/19 16:41:11 427] [FOTA#Transport][D][WM_FOTA_ICETBoxCommunicationServer.cpp:93:Initialize] WM_FOTA_ICETBoxCommunicationServer::Initialize ---, cost 3412063232033140.000 seconds
+[2021/08/19 16:41:11 427] [FOTA#FotaManager][D][WM_FOTA_FOTAManager.cpp:389:Initialize] WM_FOTA_FOTAManager::Initialize
+
+[2021/08/19 16:41:11 427] [FOTA#FotaManager][D][WM_FOTA_FOTAManager.cpp:391:Initialize] WM_FOTA_FOTAManager::Initialize end
+
+[2021/08/19 16:41:11 428] [FOTA#Transport][D][WM_FOTA_ICETBoxCommunicationServer.cpp:118:Start] WM_FOTA_ICETBoxCommunicationServer::Start +++
+[2021/08/19 16:41:11 434] [FOTA#FotaManager][D][WM_FOTA_ScriptThread.cpp:32:Run] Run 995 Notify!!
+
+[2021/08/19 16:41:11 464] [FOTA#Transport][D][WM_FOTA_ICETBoxCommunicationServer.cpp:118:Start] WM_FOTA_ICETBoxCommunicationServer::Start ---, cost 155772422962912.969 seconds
+[2021/08/19 16:41:11 466] [FOTA#Transport][D][WM_FOTA_ICEHUCommunicationClient.cpp:145:Start] WM_FOTA_ICEHUCommunicationClient::Start
+[2021/08/19 16:41:11 506] [FOTA#Transport][D][WM_FOTA_ICEHUCommunicationClient.cpp:192:Start] [/data/jenkins-slave/workspace/Gallop_Tbox_Build/Gallop_ASE3_TBox_ota1/FOTA3.0/RPC/Client/HU/source/WM_FOTA_ICEHUCommunicationClient.cpp][Start][192] str = E293EC93-F16F-4490-B2E1-BB323C2B0826
+
+[2021/08/19 16:41:11 521] [FOTA#Transport][D][WM_FOTA_ICEHUCommunicationClient.cpp:226:Start] HUCommunicationClient Connect HUCommunicationServer Success
+[2021/08/19 16:41:15 251] [FOTA#Transport][D][WM_FOTA_ICETBoxSender.cpp:64:RegisterTBoxClient] WM_FOTA_ICETBoxSender::RegisterTBoxClient +++
+[2021/08/19 16:41:15 252] [FOTA#Transport][D][WM_FOTA_ICETBoxSender.cpp:64:RegisterTBoxClient] WM_FOTA_ICETBoxSender::RegisterTBoxClient ---, cost 25052544237.568 seconds
+[2021/08/19 16:41:16 525] [FOTA#Transport][D][WM_FOTA_ICEFotaServiceCommunicationClient.cpp:91:Initialize] WM_FOTA_ICEFotaServiceCommunicationClient::Initialize +++
+[2021/08/19 16:41:16 527] [FOTA#Transport][D][WM_FOTA_ICEFotaServiceCommunicationClient.cpp:91:Initialize] WM_FOTA_ICEFotaServiceCommunicationClient::Initialize ---, cost 3841523716404133.500 seconds
+[2021/08/19 16:41:16 528] [FOTA#Transport][D][WM_FOTA_ICEFotaServiceCommunicationClient.cpp:118:Start] WM_FOTA_ICEFotaServiceCommunicationClient::Start +++
+[2021/08/19 16:41:16 547] [FOTA#FotaManager][D][WM_FOTA_RollbackDataManager.cpp:260:MakeRollbackFile] rollback file /wm/update/fotaDB/rollback.json exist
+[2021/08/19 16:41:16 552] [FOTA#FotaManager][D][WM_FOTA_IgwAwakeThread.cpp:77:DormancyGW] dormancy gateway
+[2021/08/19 16:41:16 552] [FOTA#Transport][D][WM_FOTA_ICEFotaServiceCommunicationClient.cpp:175:Start] FotaServiceCommunicationClient Connect FotaServiceCommunicationServer Success
+[2021/08/19 16:41:16 553] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:291:Run] FOTA_FSM_BOOTUP State
+[2021/08/19 16:41:16 555] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:909:LoadBackupMemory] WM_FOTA_FOTADataManager::LoadBackupMemory +++
+[2021/08/19 16:41:16 560] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:952:LoadBackupMemory] version: 1.0.0, timestamp: 1629362286, dataSize: 836
+[2021/08/19 16:41:16 567] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:1234:DumpDB] WM_FOTA_FOTADataManager::DumpDB +++
+[2021/08/19 16:41:16 568] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:1236:DumpDB] StateMachine State: [8]
+[2021/08/19 16:41:16 568] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:1237:DumpDB] UpgradeState: [16]
+[2021/08/19 16:41:16 568] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:1238:DumpDB] VehicleVin: [LL2274097LW003048]
+[2021/08/19 16:41:16 568] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:1239:DumpDB] publish_seq_no: [6164]
+[2021/08/19 16:41:16 568] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:1240:DumpDB] mode: [3]
+[2021/08/19 16:41:16 568] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:1241:DumpDB] reserveStatus: [0]
+[2021/08/19 16:41:16 568] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:1242:DumpDB] reserveTime: []
+[2021/08/19 16:41:16 569] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:1234:DumpDB] WM_FOTA_FOTADataManager::DumpDB ---, cost 4034584903680.001 seconds
+[2021/08/19 16:41:16 569] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:909:LoadBackupMemory] WM_FOTA_FOTADataManager::LoadBackupMemory ---, cost 9327917330455330.000 seconds
+[2021/08/19 16:41:16 571] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:310:Run] FOTA_FSM_INIT State
+[2021/08/19 16:41:16 572] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:5578:DotaRequest] Dota request
+[2021/08/19 16:41:16 572] [FOTA#FotaManager][D][WM_FOTA_FOTAManager.cpp:511:DotaRequest] DotaRequest
+[2021/08/19 16:41:16 572] [FOTA#FotaManager][D][WM_FOTA_FOTAManager.cpp:143:WM_TBOX_OTA_SendRequest_To_DOTA] m_DotaStatusNotifyOta.m_Tbox_Ota_Dota_Common_Req.msgid = 1001
+[2021/08/19 16:41:16 572] [FOTA#FotaManager][D][WM_FOTA_FOTAManager.cpp:144:WM_TBOX_OTA_SendRequest_To_DOTA] m_DotaStatusNotifyOta.m_Tbox_Ota_Dota_Common_Req.msgtype = 9
+[2021/08/19 16:41:16 572] [FOTA#FotaManager][D][WM_FOTA_FOTAManager.cpp:145:WM_TBOX_OTA_SendRequest_To_DOTA] m_DotaStatusNotifyOta..timeout = 600
+[2021/08/19 16:41:16 572] [FOTA#FotaManager][D][WM_FOTA_FOTAManager.cpp:146:WM_TBOX_OTA_SendRequest_To_DOTA] m_DotaStatusNotifyOta.m_Tbox_Ota_Dota_Common_Req.timestamp = 1629362476
+[2021/08/19 16:41:16 578] [FOTA#FotaManager][D][WM_FOTA_FOTAManager.cpp:103:WM_TBOX_OTASendMpuIpcMsg] Tbox OTA APP  IPC Msg send 1
+[2021/08/19 16:41:16 578] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:5583:DotaRequest] wait Dota
+[2021/08/19 16:41:16 965] [FOTA#FotaManager][D][WM_FOTA_FOTAManager.cpp:186:wmFotaHandler] msgType is invalid 1629362476
+[2021/08/19 16:41:16 969] [FOTA#FotaManager][D][WM_FOTA_FOTAManager.cpp:517:DotaResponse] DotaResponse 1
+[2021/08/19 16:41:16 969] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:5590:DotaResponse] DotaResponse
+[2021/08/19 16:41:16 969] [FOTA#FotaManager][D][WM_FOTA_IgwAwakeThread.cpp:64:WakeUpGW] wake up gateway
+[2021/08/19 16:41:16 969] [FOTA#FotaManager][D][WM_FOTA_IgwAwakeThread.cpp:65:WakeUpGW] udsSetCanWorkStatus 1
+[2021/08/19 16:41:18 980] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:1258:FotaEnvInitialize] WM_FOTA_FOTAManagerThread::FotaEnvInitialize +++
+[2021/08/19 16:41:18 981] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:1262:FotaEnvInitialize] GetVIN is LL2274097LW003048
+[2021/08/19 16:41:18 984] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:159:InitializeEnv] getTspEnv: 3
+[2021/08/19 16:41:18 986] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:274:InitializeEnv] m_versionScriptUrl: https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/script
+[2021/08/19 16:41:18 986] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:275:InitializeEnv] m_rollBackUrl: https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/currentEdition
+[2021/08/19 16:41:18 986] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:276:InitializeEnv] m_upLoadLogUrl: https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/log
+[2021/08/19 16:41:18 986] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:277:InitializeEnv] m_upgradeStatusUrl: https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/status
+[2021/08/19 16:41:18 986] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:278:InitializeEnv] m_versionCheckUrl: https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/softwares
+[2021/08/19 16:41:18 987] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:279:InitializeEnv] m_PowerSupplyTimesUrl: https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/getSupEle
+[2021/08/19 16:41:18 987] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:280:InitializeEnv] m_bookingUrl: https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/booking
+[2021/08/19 16:41:18 987] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:281:InitializeEnv] m_bookingInstallUrl: https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/bookingInstall
+[2021/08/19 16:41:18 987] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:282:InitializeEnv] m_setEleStatusUrl: https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/setEleStatus
+[2021/08/19 16:41:18 987] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:283:InitializeEnv] m_upgradeResultUrl: https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/upgradeResult
+[2021/08/19 16:41:18 987] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:284:InitializeEnv] m_downUpdataEngineUrl : https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/updateEngine
+[2021/08/19 16:41:18 987] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:285:InitializeEnv] m_downB60XOdxUrl : https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/updateScript
+[2021/08/19 16:41:18 987] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:286:InitializeEnv] m_upgradeConditionUrl: https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/tboxCheck
+[2021/08/19 16:41:18 988] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:287:InitializeEnv] m_historyVersionUrl: https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/getHistoryVersion
+[2021/08/19 16:41:18 988] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:288:InitializeEnv] m_scriptUrl: https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/runscriptenc
+[2021/08/19 16:41:18 988] [FOTA#FotaManager][D][WM_FOTA_VehicleInfo.cpp:289:InitializeEnv] m_VerifyPkiUrl : https://wm-gateway-center-uat.wm-motor.com/security-service/pki/p7DetachVerify 
+[2021/08/19 16:41:18 989] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:492:SetVehicleVin] SetVehicleVin: LL2274097LW003048
+[2021/08/19 16:41:18 989] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:1044:SaveBackupMemory] WM_FOTA_FOTADataManager::SaveBackupMemory +++
+[2021/08/19 16:41:18 990] [FOTA#FotaManager][D][WM_FOTA_RollbackDataManager.cpp:260:MakeRollbackFile] rollback file /wm/update/fotaDB/rollback.json exist
+[2021/08/19 16:41:18 994] [FOTA#FotaManager][D][WM_FOTA_FOTADataManager.cpp:1044:SaveBackupMemory] WM_FOTA_FOTADataManager::SaveBackupMemory ---, cost 21254049391181.828 seconds
+[2021/08/19 16:41:18 996] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:1274:FotaEnvInitialize] GetTBoxMPUVersion: A3HTANFUP003441
+[2021/08/19 16:41:18 996] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:1282:FotaEnvInitialize] GetTBoxMCUVersion: ASE3HTBVM210818
+[2021/08/19 16:41:18 996] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:1290:FotaEnvInitialize] GetTBoxPN: VE70026302W769001
+[2021/08/19 16:41:18 997] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:1298:FotaEnvInitialize] GetTBoxSN: VE70026302-ABD0044
+[2021/08/19 16:41:18 999] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:1271:DownloadUpdatePrepareFile] WM_FOTA_POST_Msg2Tsp : DownloadUpdatePrepareFile +++
+[2021/08/19 16:41:18 999] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:1272:DownloadUpdatePrepareFile] type = updateScript, filePath = /wm/update/B60X.odx
+[2021/08/19 16:41:18 999] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:1279:DownloadUpdatePrepareFile] /wm/update/B60X.odx is Exist, Get the Md5Value of the file
+[2021/08/19 16:41:18 999] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:2354:getMD5value] MD5_Init start
+[2021/08/19 16:41:19 001] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:2366:getMD5value] downLoadFileSize:3244688
+[2021/08/19 16:41:19 151] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:2385:getMD5value] MD5_Final end
+[2021/08/19 16:41:19 151] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:2386:getMD5value] fileName :/wm/update/B60X.odx Md5Value = 8da908649433a97b39e42139e0bbac0d
+[2021/08/19 16:41:19 151] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:1285:DownloadUpdatePrepareFile] DownloadUpdatePrepareFile : Md5Value = 8da908649433a97b39e42139e0bbac0d
+[2021/08/19 16:41:19 152] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:1332:DownloadUpdatePrepareFile] DownloadUpdatePrepareFile upUrl = https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/updatePrepare?type=updateScript&isExist=Y
+[2021/08/19 16:41:19 152] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:1339:DownloadUpdatePrepareFile] vin = LL2274097LW003048
+[2021/08/19 16:41:19 155] [FOTA#CloudProxy][D][WM_FOTA_HttpCommunication.cpp:1235:Execute] WM_FOTA_HttpCommunication::Execute +++
+[2021/08/19 16:41:19 155] [FOTA#CloudProxy][D][WM_FOTA_HttpCommunication.cpp:1247:Execute] Execute CloudProxyRequest id: 1
+[2021/08/19 16:41:19 156] [FOTA#CloudProxy][D][WM_FOTA_HttpCommunication.cpp:1255:Execute] Execute CloudProxyRequest Method Type :2
+[2021/08/19 16:41:19 157] [FOTA#CloudProxy][D][WM_FOTA_HttpCommunication.cpp:814:CurlHttpsPost] WM_FOTA_HttpCommunication::CurlHttpsPost +++
+[2021/08/19 16:41:19 159] [FOTA#CloudProxy][D][WM_FOTA_HttpCommunication.cpp:902:CurlHttpsPost] CurlHttpsPost Url: https://wm-hu-api-uat.wm-motor.com/v2/vehicle/fota/updatePrepare?type=updateScript&isExist=Y
+[2021/08/19 16:41:19 160] [FOTA#CloudProxy][D][WM_FOTA_HttpCommunication.cpp:1125:CurlHttpsPost] CurlHttpsPost Request TimeOut: 900
+[2021/08/19 16:41:19 778] [FOTA#CloudProxy][D][WM_FOTA_HttpCommunication.cpp:814:CurlHttpsPost] WM_FOTA_HttpCommunication::CurlHttpsPost ---, cost 5930916732509561.000 seconds
+[2021/08/19 16:41:19 778] [FOTA#CloudProxy][D][WM_FOTA_HttpCommunication.cpp:1276:Execute] Execute CloudProxyRequest ResCode[rescode: 0, errmes: null]
+[2021/08/19 16:41:19 779] [FOTA#CloudProxy][D][WM_FOTA_HttpCommunication.cpp:1289:Execute] Execute CloudProxyRequest ResCode[httpData size: 119, buf: {"message":"success","code":0,"serviceId":"hu-api","data":{"fileUrl":null,"fileSize":null,"sign":null,"isAllow":false}}]
+[2021/08/19 16:41:19 779] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:1363:DownloadUpdatePrepareFile] DownloadUpdatePrepareFile pHttpResDataBuf = {"message":"success","code":0,"serviceId":"hu-api","data":{"fileUrl":null,"fileSize":null,"sign":null,"isAllow":false}} 
+[2021/08/19 16:41:19 779] [FOTA#CloudProxy][D][WM_FOTA_HttpCommunication.cpp:1235:Execute] WM_FOTA_HttpCommunication::Execute ---, cost 6404719387049301.000 seconds
+[2021/08/19 16:41:19 783] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:1101:ParseDownloadResData] WM_FOTA_POST_Msg2Tsp, ParseDownloadResData
+[2021/08/19 16:41:19 786] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:1136:ParseDownloadResData] isAllowDownlaod = 0
+[2021/08/19 16:41:19 787] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:1147:ParseDownloadResData] ODX and UpdateEngine are not currently allowed to download
+[2021/08/19 16:41:19 801] [FOTA#FotaManager][E][WM_FOTA_PostMsg2Tsp.cpp:1384:DownloadUpdatePrepareFile] Download updateScript error, [rescode: 65535]
+[2021/08/19 16:41:19 802] [FOTA#FotaManager][D][WM_FOTA_PostMsg2Tsp.cpp:1271:DownloadUpdatePrepareFile] WM_FOTA_POST_Msg2Tsp : DownloadUpdatePrepareFile ---, cost 17599309668583212.000 seconds
+[2021/08/19 16:41:19 802] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:1258:FotaEnvInitialize] WM_FOTA_FOTAManagerThread::FotaEnvInitialize ---, cost 17678254298514850.000 seconds
+[2021/08/19 16:41:19 802] [FOTA#FotaManager][D][WM_FOTA_IgwAwakeThread.cpp:77:DormancyGW] dormancy gateway
+[2021/08/19 16:41:19 802] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:343:Run] Get Ecu SystemInfo fail, switch to idle State, [Rescode: 65535]
+[2021/08/19 16:41:19 803] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:19 803] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:21 553] [FOTA#Transport][D][WM_FOTA_ICEFotaServiceCommunicationClient.cpp:118:Start] WM_FOTA_ICEFotaServiceCommunicationClient::Start ---, cost 108207665909433.594 seconds
+[2021/08/19 16:41:21 804] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:21 804] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:23 805] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:23 805] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:25 805] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:25 805] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:27 805] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:27 806] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:29 806] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:29 806] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:31 807] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:31 807] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:33 807] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:33 808] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:35 808] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:35 808] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:37 808] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:37 808] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:39 809] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:39 809] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:41 809] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:41 809] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:43 809] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:43 810] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:45 810] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:45 810] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:47 811] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:47 811] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:49 811] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:49 811] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:51 812] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:51 812] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:53 812] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:53 812] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:55 812] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:55 812] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:57 813] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:57 813] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:59 813] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:41:59 814] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:01 814] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:01 814] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:03 814] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:03 815] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:05 815] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:05 815] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:07 816] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:07 816] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:09 816] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:09 816] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:11 817] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:11 817] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:13 817] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:13 817] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:15 818] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:15 818] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:17 819] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:17 819] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:19 819] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:19 819] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:21 819] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:21 820] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:23 820] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:23 821] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:25 821] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:25 821] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:27 821] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:27 822] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:29 822] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:29 822] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:31 823] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:31 823] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:33 823] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:33 823] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:35 824] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:35 824] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:37 824] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:37 824] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:39 825] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:39 825] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:41 825] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:41 825] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:43 826] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:43 826] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:45 827] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:45 827] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:47 828] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:47 828] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:49 828] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:49 828] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:51 829] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:51 829] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:53 830] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:53 830] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:55 830] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:55 830] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:57 831] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:57 831] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:59 831] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:42:59 831] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:01 832] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:01 832] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:03 833] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:03 833] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:05 833] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:05 834] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:07 834] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:07 834] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:09 834] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:09 835] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:11 835] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:11 835] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:13 835] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:13 836] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:15 836] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:15 836] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:17 836] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:17 837] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:19 837] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:19 837] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:21 838] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:21 838] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:23 838] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:23 838] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:25 839] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:25 839] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:27 839] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:27 839] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:29 840] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:29 840] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:31 841] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:31 841] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:33 841] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:33 842] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:35 842] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:35 842] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:37 842] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:37 843] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:39 843] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:39 843] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:41 844] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:41 844] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:43 844] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:43 844] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:45 845] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:45 845] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:47 845] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:47 846] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:49 846] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:49 846] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:51 847] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:51 847] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:53 847] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:53 848] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:55 848] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:55 848] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:57 848] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:57 848] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:59 849] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:43:59 849] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:01 849] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:01 849] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:03 850] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:03 850] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:05 850] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:05 851] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:07 851] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:07 851] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:09 851] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:09 851] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:11 852] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:11 852] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:13 852] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:13 852] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:15 853] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:15 853] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:17 853] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:17 854] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:19 854] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:19 854] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:21 854] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:21 854] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:23 856] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:23 856] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:25 856] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:25 857] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:27 857] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:27 857] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:29 858] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:29 858] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:31 858] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:31 858] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:33 859] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:33 859] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:35 859] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:35 859] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:37 859] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:37 859] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:39 860] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:39 860] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:41 860] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:41 860] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:43 861] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:43 861] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:45 861] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:45 862] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:47 862] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:47 862] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:49 862] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:49 863] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:51 863] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:51 863] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:53 864] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:53 864] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:55 864] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:55 864] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:57 865] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:57 865] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:59 865] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:44:59 865] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:01 866] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:01 866] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:03 866] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:03 866] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:05 867] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:05 867] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:07 868] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:07 868] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:09 868] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:09 868] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:11 868] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:11 869] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:13 869] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:13 869] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:15 870] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:15 870] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:17 870] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:17 870] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:19 871] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:19 871] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:21 871] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:21 872] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:23 873] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:23 873] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:25 873] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:25 873] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:27 873] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:27 874] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:29 874] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:29 874] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:31 874] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:31 875] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:33 875] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:33 875] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:35 875] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:35 876] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:37 876] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:37 876] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:39 876] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:39 876] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:41 877] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:41 877] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:43 877] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:43 877] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:45 878] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:45 878] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:47 878] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:47 878] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:49 879] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:49 879] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:51 880] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:51 880] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:53 880] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:53 880] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:55 881] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:55 881] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:57 881] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:57 881] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:59 881] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:45:59 881] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:01 882] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:01 882] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:03 883] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:03 883] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:05 883] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:05 883] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:07 884] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:07 884] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:09 884] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:09 884] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:11 884] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:11 885] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:13 885] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:13 885] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:15 885] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:15 886] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:17 886] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:17 886] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:19 887] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:19 887] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:21 887] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:21 887] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:23 888] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:23 888] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:25 888] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:25 888] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:27 888] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:27 889] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:29 889] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:29 889] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:31 891] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:31 891] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:33 893] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:33 893] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:35 894] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:35 894] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:37 894] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:37 895] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:39 895] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:39 895] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:41 896] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:41 896] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:43 896] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:43 896] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:45 896] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:45 897] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:47 897] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:47 897] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:49 897] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:49 898] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:51 898] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:51 898] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:53 898] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:53 899] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:55 899] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:55 899] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:57 899] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:722:Run] FOTA_FSM_IDLE State
+[2021/08/19 16:46:57 899] [FOTA#FotaManager][D][WM_FOTA_FOTAManagerThread.cpp:726:Run] FOTA_FSM_IDLE State
+                                                                                                                                                                                                                                                                                                                                 

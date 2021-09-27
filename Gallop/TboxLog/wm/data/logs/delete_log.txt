@@ -1,0 +1,6 @@
+2021-08-20,12:08:1629432060
+max_kb:129549  keep_kb:92535
+start file_size:49601
+end file_size:49601
+gb start file_size:57212
+gb end file_size:57212

@@ -1,0 +1,1302 @@
+
+Trace>> [     26838][19700101 08:00:29:851][  1692][main@221]Version information: mculogger v3.2.7, 2021/8/09
+Trace>> [     26839][19700101 08:00:29:852][  1692][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [     26847][19700101 08:00:29:860][  1692][init@62]Start UART rx thread
+Trace>> [     26847][19700101 08:00:29:860][  1692][init@69]UART protocol stack initialization successful
+Trace>> [     26847][19700101 08:00:29:860][  1692][connect@256]Now connect MCU...
+Trace>> [     26852][19700101 08:00:29:865][  1692][operator()@287]Trying to connect...
+Trace>> [     26866][19700101 08:00:29:880][  1692][parseMsg@412]Notify connection thread finished
+Trace>> [     26866][19700101 08:00:29:880][  1692][parseMsg@418]Wait for connection thread finished
+Trace>> [     26867][19700101 08:00:29:880][  1692][operator()@292]Connect MCU successfully
+Trace>> [     26867][19700101 08:00:29:880][  1692][parseMsg@423]MPU establishes connection with the MCU
+Trace>> [     26952][19700101 08:00:29:965][  1692][main@247]Start IPC handler successful
+Trace>> [     26952][19700101 08:00:29:966][  1692][main@253]Start IPC receiving successful
+Trace>> [     26953][19700101 08:00:29:966][  1692][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [     26954][19700101 08:00:29:967][  1692][logThreadProc@166]log thread proc run 
+
+Debug>> [     29777][19700101 08:00:32:791][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:23,cur sn:23
+ Warn>> [     29837][19700101 08:00:32:850][  1692][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [     36955][19700101 08:00:39:969][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [     37215][20210819 15:43:02:462][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:37,cur sn:37
+Debug>> [     39011][20210819 15:43:04:258][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:45,cur sn:45
+ Warn>> [     39065][20210819 15:43:04:312][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [     43251][20210819 15:43:08:498][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:51,cur sn:51
+Debug>> [     47270][20210819 15:43:12:517][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:54,cur sn:54
+Debug>> [     50951][20210819 15:43:16:198][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:59,cur sn:59
+Debug>> [     52119][20210819 15:43:17:366][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:60,cur sn:60
+Debug>> [     53250][20210819 15:43:18:498][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:62,cur sn:62
+Debug>> [     54578][20210819 15:43:19:825][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:63,cur sn:63
+Debug>> [     55651][20210819 15:43:20:899][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:64,cur sn:64
+Debug>> [     56737][20210819 15:43:21:985][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:65,cur sn:65
+ Warn>> [     56995][20210819 15:43:22:243][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [     57825][20210819 15:43:23:073][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:66,cur sn:66
+Debug>> [     61659][20210819 15:43:26:907][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:72,cur sn:72
+ Warn>> [     62895][20210819 15:43:28:143][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [     63851][20210819 15:43:29:098][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:75,cur sn:75
+Debug>> [     64919][20210819 15:43:30:166][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:76,cur sn:76
+Debug>> [     65989][20210819 15:43:31:237][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:77,cur sn:77
+Debug>> [     67063][20210819 15:43:32:311][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:78,cur sn:78
+Debug>> [     68140][20210819 15:43:33:388][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:80,cur sn:80
+Debug>> [     69208][20210819 15:43:34:456][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:81,cur sn:81
+Debug>> [     70279][20210819 15:43:35:526][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:82,cur sn:82
+ Warn>> [     70395][20210819 15:43:35:643][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [     71355][20210819 15:43:36:603][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:83,cur sn:83
+Error>> [     81867][20210819 15:43:47:114][  1692][rxThreadFunc@235]Keepalive timeout, MCU is dead, timeout is 10455.166350 ms
+Trace>> [     81867][20210819 15:43:47:115][  1692][disconnect@312]MPU is disconnected from MCU
+Trace>> [     81867][20210819 15:43:47:115][  1692][rxThreadFunc@237]Now try to reconnect...
+Trace>> [     81867][20210819 15:43:47:115][  1692][connect@256]Now connect MCU...
+Trace>> [     81868][20210819 15:43:47:115][  1692][operator()@287]Trying to connect...
+Trace>> [     81876][20210819 15:43:47:123][  1692][parseMsg@412]Notify connection thread finished
+Trace>> [     81876][20210819 15:43:47:123][  1692][parseMsg@418]Wait for connection thread finished
+Trace>> [     81876][20210819 15:43:47:124][  1692][operator()@292]Connect MCU successfully
+Trace>> [     81876][20210819 15:43:47:124][  1692][parseMsg@423]MPU establishes connection with the MCU
+ Warn>> [     86956][20210819 15:43:52:204][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [     87439][20210819 15:43:52:686][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:96,cur sn:96
+ Warn>> [     87556][20210819 15:43:52:804][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [     88508][20210819 15:43:53:756][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:98,cur sn:98
+Debug>> [    107390][20210819 15:44:12:638][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:116,cur sn:116
+Debug>> [    135699][20210819 15:44:40:947][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:140,cur sn:140
+ Warn>> [    135757][20210819 15:44:41:004][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    148240][20210819 15:44:53:488][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:153,cur sn:153
+ Warn>> [    148297][20210819 15:44:53:545][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    151439][20210819 15:44:56:687][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:154,cur sn:154
+ Warn>> [    157096][20210819 15:45:02:343][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    157840][20210819 15:45:03:087][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:159,cur sn:159
+ Warn>> [    163166][20210819 15:45:08:413][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    164119][20210819 15:45:09:367][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:165,cur sn:165
+Debug>> [    167270][20210819 15:45:12:518][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:166,cur sn:166
+Debug>> [    192641][20210819 15:45:37:888][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:188,cur sn:188
+Debug>> [    211453][20210819 15:45:56:701][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:205,cur sn:205
+Debug>> [    216310][20210819 15:46:01:558][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:208,cur sn:208
+Debug>> [    217386][20210819 15:46:02:634][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:209,cur sn:209
+Debug>> [    218465][20210819 15:46:03:712][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:211,cur sn:211
+Debug>> [    220940][20210819 15:46:06:188][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:212,cur sn:212
+Debug>> [    222619][20210819 15:46:07:867][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:213,cur sn:213
+Debug>> [    224090][20210819 15:46:09:337][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:215,cur sn:215
+ Warn>> [    226306][20210819 15:46:11:554][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    227255][20210819 15:46:12:503][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:216,cur sn:216
+Debug>> [    233650][20210819 15:46:18:898][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:221,cur sn:221
+Debug>> [    237500][20210819 15:46:22:748][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:224,cur sn:224
+Debug>> [    238570][20210819 15:46:23:817][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:226,cur sn:226
+ Warn>> [    238626][20210819 15:46:23:874][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    250956][20210819 15:46:36:203][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:236,cur sn:236
+ Warn>> [    262306][20210819 15:46:47:554][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    262455][20210819 15:46:47:702][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:246,cur sn:246
+Debug>> [    268801][20210819 15:46:54:048][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:253,cur sn:253
+Debug>> [    271940][20210819 15:46:57:188][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:254,cur sn:254
+Debug>> [    274040][20210819 15:46:59:288][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:0,cur sn:0
+Debug>> [    275110][20210819 15:47:00:357][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:1,cur sn:1
+Debug>> [    277267][20210819 15:47:02:514][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:2,cur sn:2
+Debug>> [    278409][20210819 15:47:03:657][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:4,cur sn:4
+ Warn>> [    278467][20210819 15:47:03:715][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    284653][20210819 15:47:09:900][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:8,cur sn:8
+Debug>> [    308631][20210819 15:47:33:878][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:30,cur sn:30
+Debug>> [    310056][20210819 15:47:35:304][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:31,cur sn:31
+Debug>> [    312741][20210819 15:47:37:988][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:32,cur sn:32
+Debug>> [    313810][20210819 15:47:39:057][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:34,cur sn:34
+Debug>> [    316720][20210819 15:47:41:967][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:35,cur sn:35
+Debug>> [    317795][20210819 15:47:43:043][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:36,cur sn:36
+ Warn>> [    317850][20210819 15:47:43:098][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    327592][20210819 15:47:52:839][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:44,cur sn:44
+Debug>> [    328661][20210819 15:47:53:908][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:46,cur sn:46
+Debug>> [    329730][20210819 15:47:54:977][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:47,cur sn:47
+Debug>> [    331721][20210819 15:47:56:968][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:48,cur sn:48
+Debug>> [    332790][20210819 15:47:58:038][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:49,cur sn:49
+Debug>> [    335854][20210819 15:48:01:102][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:51,cur sn:51
+ Warn>> [    336318][20210819 15:48:01:565][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    337272][20210819 15:48:02:519][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:52,cur sn:52
+Debug>> [    339012][20210819 15:48:04:260][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:55,cur sn:55
+ Warn>> [    367518][20210819 15:48:32:765][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    367632][20210819 15:48:32:879][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:82,cur sn:82
+ Warn>> [    387558][20210819 15:48:52:805][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    387841][20210819 15:48:53:089][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:99,cur sn:99
+ Warn>> [    423058][20210819 15:49:28:305][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    424013][20210819 15:49:29:260][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:131,cur sn:131
+Debug>> [    440062][20210819 15:49:45:309][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:146,cur sn:146
+ Warn>> [    440119][20210819 15:49:45:366][  1692][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    464508][20210819 15:50:09:756][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    465462][20210819 15:50:10:709][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:168,cur sn:168
+Debug>> [    481223][20210819 15:50:26:470][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:182,cur sn:182
+Debug>> [    493858][20210819 15:50:39:105][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:194,cur sn:194
+Trace>> [    501681][20210819 15:50:46:928][  1692][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [    518288][20210819 15:51:03:536][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    519242][20210819 15:51:04:489][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:217,cur sn:217
+ Warn>> [    522829][20210819 15:51:08:076][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    523022][20210819 15:51:08:270][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:219,cur sn:219
+ Warn>> [    524549][20210819 15:51:09:796][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    525502][20210819 15:51:10:749][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:221,cur sn:221
+Debug>> [    531842][20210819 15:51:17:090][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:227,cur sn:227
+Debug>> [    566582][20210819 15:51:51:829][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:0,cur sn:0
+ Warn>> [    566640][20210819 15:51:51:888][  1692][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    568860][20210819 15:51:54:108][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    569813][20210819 15:51:55:060][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:5,cur sn:5
+Debug>> [    577274][20210819 15:52:02:522][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:10,cur sn:10
+Debug>> [    588723][20210819 15:52:13:970][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:21,cur sn:21
+ Warn>> [    594052][20210819 15:52:19:300][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    595003][20210819 15:52:20:251][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:25,cur sn:25
+Debug>> [    601323][20210819 15:52:26:570][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:33,cur sn:33
+Debug>> [    604423][20210819 15:52:29:670][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:35,cur sn:35
+Debug>> [    607274][20210819 15:52:32:521][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:36,cur sn:36
+Debug>> [    608347][20210819 15:52:33:594][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:37,cur sn:37
+Debug>> [    609414][20210819 15:52:34:661][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:39,cur sn:39
+Debug>> [    610743][20210819 15:52:35:990][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:40,cur sn:40
+ Warn>> [    612189][20210819 15:52:37:436][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    613143][20210819 15:52:38:390][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:41,cur sn:41
+Debug>> [    647274][20210819 15:53:12:522][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:73,cur sn:73
+Debug>> [    654958][20210819 15:53:20:206][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:80,cur sn:80
+Debug>> [    657275][20210819 15:53:22:522][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:81,cur sn:81
+Debug>> [    658350][20210819 15:53:23:598][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:82,cur sn:82
+Debug>> [    661223][20210819 15:53:26:471][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:84,cur sn:84
+Debug>> [    664363][20210819 15:53:29:611][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:86,cur sn:86
+Debug>> [    666194][20210819 15:53:31:441][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:87,cur sn:87
+ Warn>> [    666320][20210819 15:53:31:568][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    667276][20210819 15:53:32:523][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:88,cur sn:88
+ Warn>> [    673130][20210819 15:53:38:378][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    673793][20210819 15:53:39:040][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:93,cur sn:93
+Debug>> [    677784][20210819 15:53:43:032][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:97,cur sn:97
+ Warn>> [    677840][20210819 15:53:43:088][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    689305][20210819 15:53:54:552][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:108,cur sn:108
+ Warn>> [    694912][20210819 15:54:00:159][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    695859][20210819 15:54:01:106][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:112,cur sn:112
+Debug>> [    705433][20210819 15:54:10:680][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:122,cur sn:122
+Debug>> [    707275][20210819 15:54:12:523][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:123,cur sn:123
+Debug>> [    712414][20210819 15:54:17:661][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:128,cur sn:128
+Debug>> [    717984][20210819 15:54:23:232][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:132,cur sn:132
+ Warn>> [    718040][20210819 15:54:23:287][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    724324][20210819 15:54:29:571][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:138,cur sn:138
+Debug>> [    747276][20210819 15:54:52:524][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:157,cur sn:157
+ Warn>> [    747330][20210819 15:54:52:578][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    752785][20210819 15:54:58:032][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:161,cur sn:161
+ Warn>> [    752841][20210819 15:54:58:088][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    767275][20210819 15:55:12:522][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:174,cur sn:174
+Debug>> [    774904][20210819 15:55:20:151][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:181,cur sn:181
+Debug>> [    777277][20210819 15:55:22:525][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:182,cur sn:182
+Debug>> [    778348][20210819 15:55:23:595][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:183,cur sn:183
+Debug>> [    779404][20210819 15:55:24:652][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:185,cur sn:185
+Debug>> [    781185][20210819 15:55:26:432][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:186,cur sn:186
+Debug>> [    782259][20210819 15:55:27:506][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:187,cur sn:187
+ Warn>> [    783356][20210819 15:55:28:604][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    800059][20210819 15:55:45:306][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:203,cur sn:203
+Debug>> [    803185][20210819 15:55:48:433][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:204,cur sn:204
+Debug>> [    804875][20210819 15:55:50:123][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:206,cur sn:206
+Debug>> [    806325][20210819 15:55:51:572][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:207,cur sn:207
+Debug>> [    807396][20210819 15:55:52:644][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:208,cur sn:208
+Debug>> [    808468][20210819 15:55:53:715][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:209,cur sn:209
+ Warn>> [    808521][20210819 15:55:53:768][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    828645][20210819 15:56:13:892][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:228,cur sn:228
+Debug>> [    834959][20210819 15:56:20:206][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:232,cur sn:232
+Debug>> [    837276][20210819 15:56:22:524][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:233,cur sn:233
+Debug>> [    838349][20210819 15:56:23:596][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:234,cur sn:234
+Debug>> [    839474][20210819 15:56:24:722][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:236,cur sn:236
+Debug>> [    840546][20210819 15:56:25:794][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:237,cur sn:237
+Debug>> [    841615][20210819 15:56:26:862][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:238,cur sn:238
+ Warn>> [    843472][20210819 15:56:28:719][  1692][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    863511][20210819 15:56:48:759][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    863645][20210819 15:56:48:893][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:0,cur sn:0
+Debug>> [    885960][20210819 15:57:11:208][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:21,cur sn:21
+Debug>> [    905065][20210819 15:57:30:312][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:37,cur sn:37
+Debug>> [    908265][20210819 15:57:33:512][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:40,cur sn:40
+ Warn>> [    908602][20210819 15:57:33:849][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    909336][20210819 15:57:34:584][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:41,cur sn:41
+Debug>> [    927277][20210819 15:57:52:524][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:55,cur sn:55
+Debug>> [    928349][20210819 15:57:53:596][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:56,cur sn:56
+Debug>> [    929415][20210819 15:57:54:662][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:57,cur sn:57
+Debug>> [    930645][20210819 15:57:55:893][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:59,cur sn:59
+Debug>> [    931858][20210819 15:57:57:105][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:60,cur sn:60
+Debug>> [    933795][20210819 15:57:59:042][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:61,cur sn:61
+ Warn>> [    933857][20210819 15:57:59:105][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    959065][20210819 15:58:24:313][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:86,cur sn:86
+Debug>> [    973627][20210819 15:58:38:874][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:97,cur sn:97
+Debug>> [    977858][20210819 15:58:43:106][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:101,cur sn:101
+Debug>> [    978929][20210819 15:58:44:177][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:102,cur sn:102
+Debug>> [    981106][20210819 15:58:46:353][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:104,cur sn:104
+Debug>> [    984236][20210819 15:58:49:484][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:105,cur sn:105
+Debug>> [    987278][20210819 15:58:52:525][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:107,cur sn:107
+Debug>> [    988349][20210819 15:58:53:597][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:108,cur sn:108
+ Warn>> [    988466][20210819 15:58:53:714][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [    989415][20210819 15:58:54:663][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:109,cur sn:109
+Debug>> [    990545][20210819 15:58:55:793][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:112,cur sn:112
+ Warn>> [    990602][20210819 15:58:55:850][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1003146][20210819 15:59:08:394][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:122,cur sn:122
+ Warn>> [   1003203][20210819 15:59:08:450][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1028297][20210819 15:59:33:545][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:144,cur sn:144
+Debug>> [   1058747][20210819 16:00:03:994][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:172,cur sn:172
+ Warn>> [   1058804][20210819 16:00:04:051][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1067278][20210819 16:00:12:526][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:179,cur sn:179
+Debug>> [   1069966][20210819 16:00:15:213][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:182,cur sn:182
+Debug>> [   1071036][20210819 16:00:16:283][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:183,cur sn:183
+Debug>> [   1073146][20210819 16:00:18:394][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:184,cur sn:184
+Debug>> [   1076358][20210819 16:00:21:606][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:186,cur sn:186
+Debug>> [   1077428][20210819 16:00:22:675][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:187,cur sn:187
+Debug>> [   1078497][20210819 16:00:23:744][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:188,cur sn:188
+ Warn>> [   1078613][20210819 16:00:23:860][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1079566][20210819 16:00:24:814][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:189,cur sn:189
+Debug>> [   1101867][20210819 16:00:47:115][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:209,cur sn:209
+Debug>> [   1104867][20210819 16:00:50:115][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:210,cur sn:210
+Debug>> [   1105936][20210819 16:00:51:183][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:212,cur sn:212
+Debug>> [   1107278][20210819 16:00:52:526][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:213,cur sn:213
+Debug>> [   1108346][20210819 16:00:53:594][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:214,cur sn:214
+Debug>> [   1109421][20210819 16:00:54:668][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:215,cur sn:215
+Debug>> [   1111428][20210819 16:00:56:675][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:217,cur sn:217
+ Warn>> [   1114013][20210819 16:00:59:261][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1114607][20210819 16:00:59:854][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:218,cur sn:218
+Debug>> [   1118387][20210819 16:01:03:634][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:224,cur sn:224
+Debug>> [   1127528][20210819 16:01:12:775][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:231,cur sn:231
+ Warn>> [   1127583][20210819 16:01:12:831][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1130686][20210819 16:01:15:934][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:234,cur sn:234
+Debug>> [   1138848][20210819 16:01:24:096][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:240,cur sn:240
+Debug>> [   1140178][20210819 16:01:25:425][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:243,cur sn:243
+ Warn>> [   1140234][20210819 16:01:25:481][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   1145501][20210819 16:01:30:748][  1692][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Debug>> [   1152926][20210819 16:01:38:174][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:252,cur sn:252
+Debug>> [   1153997][20210819 16:01:39:244][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:253,cur sn:253
+Debug>> [   1156059][20210819 16:01:41:306][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:255,cur sn:255
+Debug>> [   1157278][20210819 16:01:42:526][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:0,cur sn:0
+Debug>> [   1158428][20210819 16:01:43:675][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:1,cur sn:1
+Debug>> [   1159497][20210819 16:01:44:744][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:2,cur sn:2
+ Warn>> [   1161493][20210819 16:01:46:741][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1162447][20210819 16:01:47:694][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:4,cur sn:4
+Debug>> [   1168886][20210819 16:01:54:134][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:11,cur sn:11
+ Warn>> [   1174134][20210819 16:01:59:381][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1174987][20210819 16:02:00:234][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:15,cur sn:15
+Debug>> [   1181259][20210819 16:02:06:507][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:22,cur sn:22
+Debug>> [   1183909][20210819 16:02:09:156][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:23,cur sn:23
+ Warn>> [   1183965][20210819 16:02:09:212][  1692][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1184584][20210819 16:02:09:831][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1185528][20210819 16:02:10:775][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:26,cur sn:26
+Debug>> [   1187527][20210819 16:02:12:775][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:28,cur sn:28
+Debug>> [   1188597][20210819 16:02:13:845][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:29,cur sn:29
+Debug>> [   1190687][20210819 16:02:15:934][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:31,cur sn:31
+Debug>> [   1193859][20210819 16:02:19:107][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:32,cur sn:32
+Debug>> [   1197027][20210819 16:02:22:275][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:34,cur sn:34
+Debug>> [   1198102][20210819 16:02:23:349][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:35,cur sn:35
+Error>> [   1208876][20210819 16:02:34:124][  1692][rxThreadFunc@235]Keepalive timeout, MCU is dead, timeout is 10715.354683 ms
+Trace>> [   1208876][20210819 16:02:34:124][  1692][disconnect@312]MPU is disconnected from MCU
+Trace>> [   1208877][20210819 16:02:34:124][  1692][rxThreadFunc@237]Now try to reconnect...
+Trace>> [   1208877][20210819 16:02:34:124][  1692][connect@256]Now connect MCU...
+Trace>> [   1208891][20210819 16:02:34:139][  1692][operator()@287]Trying to connect...
+Trace>> [   1208905][20210819 16:02:34:152][  1692][parseMsg@412]Notify connection thread finished
+Trace>> [   1208905][20210819 16:02:34:152][  1692][parseMsg@418]Wait for connection thread finished
+Trace>> [   1208905][20210819 16:02:34:152][  1692][operator()@292]Connect MCU successfully
+Trace>> [   1208905][20210819 16:02:34:152][  1692][parseMsg@423]MPU establishes connection with the MCU
+Debug>> [   1209032][20210819 16:02:34:280][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:36,cur sn:36
+Debug>> [   1217280][20210819 16:02:42:527][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:44,cur sn:44
+Debug>> [   1228500][20210819 16:02:53:748][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:53,cur sn:53
+Debug>> [   1231670][20210819 16:02:56:918][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:56,cur sn:56
+Debug>> [   1237279][20210819 16:03:02:526][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:60,cur sn:60
+ Warn>> [   1244045][20210819 16:03:09:293][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1244107][20210819 16:03:09:355][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:67,cur sn:67
+Debug>> [   1245179][20210819 16:03:10:426][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:69,cur sn:69
+ Warn>> [   1245235][20210819 16:03:10:482][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1257279][20210819 16:03:22:526][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:79,cur sn:79
+Debug>> [   1258530][20210819 16:03:23:777][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:80,cur sn:80
+Debug>> [   1259598][20210819 16:03:24:845][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:81,cur sn:81
+Debug>> [   1260669][20210819 16:03:25:916][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:83,cur sn:83
+Debug>> [   1263260][20210819 16:03:28:508][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:84,cur sn:84
+Debug>> [   1266278][20210819 16:03:31:526][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:86,cur sn:86
+ Warn>> [   1266394][20210819 16:03:31:642][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1267354][20210819 16:03:32:601][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:87,cur sn:87
+Debug>> [   1282360][20210819 16:03:47:608][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:100,cur sn:100
+Debug>> [   1285469][20210819 16:03:50:716][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:102,cur sn:102
+Debug>> [   1287279][20210819 16:03:52:526][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:103,cur sn:103
+Debug>> [   1288562][20210819 16:03:53:809][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:104,cur sn:104
+Debug>> [   1289634][20210819 16:03:54:882][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:105,cur sn:105
+Debug>> [   1291769][20210819 16:03:57:016][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:107,cur sn:107
+ Warn>> [   1291826][20210819 16:03:57:073][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1297279][20210819 16:04:02:526][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:110,cur sn:110
+Debug>> [   1300828][20210819 16:04:06:076][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:114,cur sn:114
+Debug>> [   1310748][20210819 16:04:15:995][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:123,cur sn:123
+Debug>> [   1312398][20210819 16:04:17:646][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:124,cur sn:124
+Debug>> [   1313863][20210819 16:04:19:110][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:125,cur sn:125
+Debug>> [   1316989][20210819 16:04:22:237][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:127,cur sn:127
+Debug>> [   1318062][20210819 16:04:23:309][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:128,cur sn:128
+Debug>> [   1319132][20210819 16:04:24:379][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:129,cur sn:129
+ Warn>> [   1319306][20210819 16:04:24:553][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1320260][20210819 16:04:25:508][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:131,cur sn:131
+Debug>> [   1357280][20210819 16:05:02:528][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:161,cur sn:161
+ Warn>> [   1357336][20210819 16:05:02:583][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1378640][20210819 16:05:23:887][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:180,cur sn:180
+Debug>> [   1381599][20210819 16:05:26:847][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:184,cur sn:184
+Debug>> [   1383290][20210819 16:05:28:537][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:185,cur sn:185
+ Warn>> [   1383346][20210819 16:05:28:594][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1397280][20210819 16:05:42:527][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:197,cur sn:197
+Debug>> [   1428701][20210819 16:06:13:948][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:226,cur sn:226
+Debug>> [   1436830][20210819 16:06:22:078][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:231,cur sn:231
+Debug>> [   1439249][20210819 16:06:24:497][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:234,cur sn:234
+Debug>> [   1462330][20210819 16:06:47:578][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:254,cur sn:254
+Debug>> [   1485390][20210819 16:07:10:638][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:18,cur sn:18
+Debug>> [   1496930][20210819 16:07:22:177][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:28,cur sn:28
+ Warn>> [   1496986][20210819 16:07:22:233][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1518791][20210819 16:07:44:038][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:47,cur sn:47
+ Warn>> [   1518846][20210819 16:07:44:094][  1692][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1534627][20210819 16:07:59:874][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1535189][20210819 16:08:00:437][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:61,cur sn:61
+Debug>> [   1541562][20210819 16:08:06:810][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:69,cur sn:69
+Debug>> [   1548820][20210819 16:08:14:068][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:76,cur sn:76
+ Warn>> [   1548876][20210819 16:08:14:124][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1585970][20210819 16:08:51:218][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:107,cur sn:107
+Debug>> [   1589290][20210819 16:08:54:538][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:111,cur sn:111
+Debug>> [   1592511][20210819 16:08:57:758][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:114,cur sn:114
+ Warn>> [   1592568][20210819 16:08:57:815][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1619492][20210819 16:09:24:739][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:138,cur sn:138
+ Warn>> [   1619548][20210819 16:09:24:796][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1627341][20210819 16:09:32:588][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:145,cur sn:145
+Debug>> [   1628901][20210819 16:09:34:148][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:146,cur sn:146
+ Warn>> [   1628960][20210819 16:09:34:207][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1633552][20210819 16:09:38:799][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:149,cur sn:149
+ Warn>> [   1633607][20210819 16:09:38:855][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1634681][20210819 16:09:39:928][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:150,cur sn:150
+ Warn>> [   1634737][20210819 16:09:39:984][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1655674][20210819 16:10:00:921][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:168,cur sn:168
+Debug>> [   1674491][20210819 16:10:19:738][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:186,cur sn:186
+Debug>> [   1677282][20210819 16:10:22:530][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:188,cur sn:188
+Debug>> [   1678351][20210819 16:10:23:598][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:189,cur sn:189
+Debug>> [   1679422][20210819 16:10:24:669][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:190,cur sn:190
+Debug>> [   1680491][20210819 16:10:25:739][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:191,cur sn:191
+Debug>> [   1681567][20210819 16:10:26:814][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:193,cur sn:193
+ Warn>> [   1683057][20210819 16:10:28:305][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1684011][20210819 16:10:29:258][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:194,cur sn:194
+Debug>> [   1687167][20210819 16:10:32:414][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:196,cur sn:196
+ Warn>> [   1687219][20210819 16:10:32:466][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1688968][20210819 16:10:34:216][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:198,cur sn:198
+ Warn>> [   1689019][20210819 16:10:34:266][  1692][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1689939][20210819 16:10:35:186][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1690291][20210819 16:10:35:539][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:199,cur sn:199
+Debug>> [   1694593][20210819 16:10:39:840][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:203,cur sn:203
+Debug>> [   1696552][20210819 16:10:41:800][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:205,cur sn:205
+Debug>> [   1697623][20210819 16:10:42:870][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:206,cur sn:206
+Debug>> [   1698965][20210819 16:10:44:212][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:207,cur sn:207
+Debug>> [   1700031][20210819 16:10:45:278][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:208,cur sn:208
+Debug>> [   1702931][20210819 16:10:48:178][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:210,cur sn:210
+Debug>> [   1704473][20210819 16:10:49:721][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:211,cur sn:211
+ Warn>> [   1705138][20210819 16:10:50:385][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1706092][20210819 16:10:51:339][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:213,cur sn:213
+ Warn>> [   1706328][20210819 16:10:51:575][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1707284][20210819 16:10:52:531][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:214,cur sn:214
+Debug>> [   1708982][20210819 16:10:54:230][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:215,cur sn:215
+Debug>> [   1717984][20210819 16:11:03:232][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:223,cur sn:223
+ Warn>> [   1718098][20210819 16:11:03:345][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1719055][20210819 16:11:04:303][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:224,cur sn:224
+Debug>> [   1728366][20210819 16:11:13:614][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:232,cur sn:232
+ Warn>> [   1728418][20210819 16:11:13:666][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1729492][20210819 16:11:14:740][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:233,cur sn:233
+Debug>> [   1747283][20210819 16:11:32:530][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:247,cur sn:247
+ Warn>> [   1750061][20210819 16:11:35:308][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1750492][20210819 16:11:35:740][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:250,cur sn:250
+Debug>> [   1753632][20210819 16:11:38:879][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:253,cur sn:253
+Debug>> [   1757284][20210819 16:11:42:531][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:1,cur sn:1
+ Warn>> [   1757339][20210819 16:11:42:586][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1767283][20210819 16:11:52:531][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:9,cur sn:9
+ Warn>> [   1767339][20210819 16:11:52:587][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1819782][20210819 16:12:45:030][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:57,cur sn:57
+Debug>> [   1822972][20210819 16:12:48:219][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:60,cur sn:60
+Debug>> [   1826267][20210819 16:12:51:514][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:62,cur sn:62
+Debug>> [   1829093][20210819 16:12:54:340][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:64,cur sn:64
+ Warn>> [   1829149][20210819 16:12:54:397][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1831366][20210819 16:12:56:614][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:67,cur sn:67
+Debug>> [   1844792][20210819 16:13:10:040][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:79,cur sn:79
+Debug>> [   1845865][20210819 16:13:11:113][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:80,cur sn:80
+Debug>> [   1847284][20210819 16:13:12:531][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:82,cur sn:82
+Debug>> [   1848912][20210819 16:13:14:159][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:83,cur sn:83
+Debug>> [   1849983][20210819 16:13:15:230][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:84,cur sn:84
+Debug>> [   1852053][20210819 16:13:17:300][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:86,cur sn:86
+ Warn>> [   1853450][20210819 16:13:18:698][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1854403][20210819 16:13:19:651][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:87,cur sn:87
+Debug>> [   1867285][20210819 16:13:32:533][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:99,cur sn:99
+Debug>> [   1868354][20210819 16:13:33:601][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:100,cur sn:100
+ Warn>> [   1896330][20210819 16:14:01:578][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1897284][20210819 16:14:02:532][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:124,cur sn:124
+Debug>> [   1898355][20210819 16:14:03:602][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:125,cur sn:125
+ Warn>> [   1898409][20210819 16:14:03:657][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1927284][20210819 16:14:32:531][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:150,cur sn:150
+Debug>> [   1937285][20210819 16:14:42:532][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:159,cur sn:159
+Debug>> [   1938353][20210819 16:14:43:600][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:160,cur sn:160
+Debug>> [   1939425][20210819 16:14:44:672][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:161,cur sn:161
+Debug>> [   1940566][20210819 16:14:45:813][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:162,cur sn:162
+Debug>> [   1943803][20210819 16:14:49:051][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:164,cur sn:164
+Debug>> [   1946666][20210819 16:14:51:914][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:166,cur sn:166
+ Warn>> [   1946720][20210819 16:14:51:968][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1947798][20210819 16:14:53:045][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:167,cur sn:167
+Debug>> [   1957284][20210819 16:15:02:532][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:175,cur sn:175
+Debug>> [   1958359][20210819 16:15:03:606][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:176,cur sn:176
+Debug>> [   1959425][20210819 16:15:04:672][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:177,cur sn:177
+Debug>> [   1960494][20210819 16:15:05:741][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:178,cur sn:178
+Debug>> [   1962744][20210819 16:15:07:991][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:180,cur sn:180
+Trace>> [   1962851][20210819 16:15:08:099][  1692][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Debug>> [   1964954][20210819 16:15:10:202][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:181,cur sn:181
+ Warn>> [   1965489][20210819 16:15:10:737][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1966023][20210819 16:15:11:270][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:182,cur sn:182
+ Warn>> [   1971380][20210819 16:15:16:627][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   1972334][20210819 16:15:17:581][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:189,cur sn:189
+Debug>> [   1992805][20210819 16:15:38:053][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:206,cur sn:206
+ Warn>> [   1992863][20210819 16:15:38:111][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2013454][20210819 16:15:58:701][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:224,cur sn:224
+Debug>> [   2019295][20210819 16:16:04:542][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:230,cur sn:230
+ Warn>> [   2019350][20210819 16:16:04:598][  1692][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2022081][20210819 16:16:07:329][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2023033][20210819 16:16:08:281][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:233,cur sn:233
+ Warn>> [   2025610][20210819 16:16:10:858][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2026254][20210819 16:16:11:502][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:235,cur sn:235
+Debug>> [   2039170][20210819 16:16:24:418][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:247,cur sn:247
+Debug>> [   2058066][20210819 16:16:43:313][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:7,cur sn:7
+Debug>> [   2061194][20210819 16:16:46:442][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:9,cur sn:9
+Debug>> [   2067286][20210819 16:16:52:533][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:14,cur sn:14
+Debug>> [   2069345][20210819 16:16:54:593][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:16,cur sn:16
+ Warn>> [   2069402][20210819 16:16:54:649][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2087286][20210819 16:17:12:533][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:34,cur sn:34
+ Warn>> [   2087340][20210819 16:17:12:588][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2114995][20210819 16:17:40:242][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:56,cur sn:56
+ Warn>> [   2115792][20210819 16:17:41:040][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2116069][20210819 16:17:41:317][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:57,cur sn:57
+Debug>> [   2127286][20210819 16:17:52:534][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:67,cur sn:67
+Debug>> [   2129407][20210819 16:17:54:654][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:69,cur sn:69
+ Warn>> [   2129463][20210819 16:17:54:711][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2145195][20210819 16:18:10:442][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:85,cur sn:85
+Debug>> [   2149426][20210819 16:18:14:673][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:89,cur sn:89
+ Warn>> [   2149481][20210819 16:18:14:729][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2157286][20210819 16:18:22:534][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:96,cur sn:96
+Debug>> [   2165767][20210819 16:18:31:015][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:102,cur sn:102
+Debug>> [   2166834][20210819 16:18:32:081][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:103,cur sn:103
+Debug>> [   2167908][20210819 16:18:33:156][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:105,cur sn:105
+Debug>> [   2169114][20210819 16:18:34:362][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:106,cur sn:106
+Debug>> [   2170186][20210819 16:18:35:434][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:107,cur sn:107
+Debug>> [   2172315][20210819 16:18:37:563][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:109,cur sn:109
+ Warn>> [   2174281][20210819 16:18:39:528][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2175235][20210819 16:18:40:482][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:110,cur sn:110
+Debug>> [   2177327][20210819 16:18:42:574][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:114,cur sn:114
+Debug>> [   2184984][20210819 16:18:50:232][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:119,cur sn:119
+Debug>> [   2187286][20210819 16:18:52:534][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:121,cur sn:121
+Debug>> [   2188355][20210819 16:18:53:602][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:122,cur sn:122
+Debug>> [   2189426][20210819 16:18:54:673][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:123,cur sn:123
+Debug>> [   2190499][20210819 16:18:55:747][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:124,cur sn:124
+Debug>> [   2191568][20210819 16:18:56:816][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:125,cur sn:125
+ Warn>> [   2193513][20210819 16:18:58:760][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2194468][20210819 16:18:59:715][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:127,cur sn:127
+Debug>> [   2197286][20210819 16:19:02:534][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:129,cur sn:129
+Debug>> [   2198360][20210819 16:19:03:608][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:130,cur sn:130
+Debug>> [   2199468][20210819 16:19:04:715][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:131,cur sn:131
+Debug>> [   2219655][20210819 16:19:24:902][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:149,cur sn:149
+Debug>> [   2222770][20210819 16:19:28:017][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:152,cur sn:152
+Debug>> [   2223835][20210819 16:19:29:083][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:153,cur sn:153
+Debug>> [   2225936][20210819 16:19:31:183][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:154,cur sn:154
+Debug>> [   2227286][20210819 16:19:32:534][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:156,cur sn:156
+Debug>> [   2229168][20210819 16:19:34:416][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:157,cur sn:157
+Debug>> [   2230236][20210819 16:19:35:483][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:158,cur sn:158
+ Warn>> [   2231022][20210819 16:19:36:269][  1692][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2246053][20210819 16:19:51:301][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2246436][20210819 16:19:51:684][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:171,cur sn:171
+Debug>> [   2250336][20210819 16:19:55:584][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:176,cur sn:176
+Debug>> [   2263870][20210819 16:20:09:118][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:188,cur sn:188
+Debug>> [   2273285][20210819 16:20:18:533][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:197,cur sn:197
+ Warn>> [   2273342][20210819 16:20:18:590][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2280378][20210819 16:20:25:625][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:203,cur sn:203
+Debug>> [   2292546][20210819 16:20:37:794][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:214,cur sn:214
+Debug>> [   2315618][20210819 16:21:00:866][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:233,cur sn:233
+Debug>> [   2327227][20210819 16:21:12:475][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:245,cur sn:245
+Debug>> [   2328297][20210819 16:21:13:544][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:246,cur sn:246
+Debug>> [   2329606][20210819 16:21:14:854][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:247,cur sn:247
+Debug>> [   2330677][20210819 16:21:15:924][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:248,cur sn:248
+Debug>> [   2333356][20210819 16:21:18:604][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:250,cur sn:250
+Debug>> [   2336456][20210819 16:21:21:704][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:251,cur sn:251
+ Warn>> [   2336575][20210819 16:21:21:823][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2337528][20210819 16:21:22:775][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:253,cur sn:253
+Debug>> [   2342835][20210819 16:21:28:083][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:3,cur sn:3
+Debug>> [   2347287][20210819 16:21:32:535][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:6,cur sn:6
+ Warn>> [   2348222][20210819 16:21:33:470][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2349176][20210819 16:21:34:424][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:7,cur sn:7
+ Warn>> [   2349293][20210819 16:21:34:540][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2350251][20210819 16:21:35:498][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:8,cur sn:8
+Debug>> [   2359628][20210819 16:21:44:875][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:16,cur sn:16
+Debug>> [   2383817][20210819 16:22:09:065][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:37,cur sn:37
+Debug>> [   2384887][20210819 16:22:10:134][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:38,cur sn:38
+Debug>> [   2385957][20210819 16:22:11:204][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:39,cur sn:39
+Debug>> [   2387028][20210819 16:22:12:275][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:40,cur sn:40
+Debug>> [   2388097][20210819 16:22:13:345][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:42,cur sn:42
+Debug>> [   2389658][20210819 16:22:14:905][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:43,cur sn:43
+Debug>> [   2390728][20210819 16:22:15:975][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:44,cur sn:44
+ Warn>> [   2390783][20210819 16:22:16:030][  1692][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2401703][20210819 16:22:26:950][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2402656][20210819 16:22:27:904][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:56,cur sn:56
+Debug>> [   2417288][20210819 16:22:42:535][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:67,cur sn:67
+ Warn>> [   2427144][20210819 16:22:52:391][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2428096][20210819 16:22:53:344][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:77,cur sn:77
+Debug>> [   2430977][20210819 16:22:56:225][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:80,cur sn:80
+ Warn>> [   2431034][20210819 16:22:56:282][  1692][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2431423][20210819 16:22:56:671][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2432107][20210819 16:22:57:355][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:81,cur sn:81
+Debug>> [   2445597][20210819 16:23:10:845][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:94,cur sn:94
+Debug>> [   2449717][20210819 16:23:14:965][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:98,cur sn:98
+ Warn>> [   2468044][20210819 16:23:33:291][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2468997][20210819 16:23:34:245][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:115,cur sn:115
+Debug>> [   2497459][20210819 16:24:02:706][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:139,cur sn:139
+Debug>> [   2500637][20210819 16:24:05:884][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:144,cur sn:144
+Debug>> [   2505678][20210819 16:24:10:925][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:147,cur sn:147
+ Warn>> [   2505734][20210819 16:24:10:981][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2516418][20210819 16:24:21:666][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:156,cur sn:156
+ Warn>> [   2516475][20210819 16:24:21:722][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2538698][20210819 16:24:43:946][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:177,cur sn:177
+ Warn>> [   2538754][20210819 16:24:44:002][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2557778][20210819 16:25:03:025][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:194,cur sn:194
+Debug>> [   2567038][20210819 16:25:12:286][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:201,cur sn:201
+Debug>> [   2569839][20210819 16:25:15:087][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:205,cur sn:205
+ Warn>> [   2569895][20210819 16:25:15:143][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2595571][20210819 16:25:40:818][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:226,cur sn:226
+Debug>> [   2608119][20210819 16:25:53:366][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:238,cur sn:238
+Debug>> [   2617518][20210819 16:26:02:766][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:246,cur sn:246
+Debug>> [   2618590][20210819 16:26:03:837][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:248,cur sn:248
+Debug>> [   2619888][20210819 16:26:05:136][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:249,cur sn:249
+Debug>> [   2620958][20210819 16:26:06:205][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:250,cur sn:250
+Debug>> [   2623778][20210819 16:26:09:025][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:252,cur sn:252
+Debug>> [   2625838][20210819 16:26:11:086][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:253,cur sn:253
+ Warn>> [   2626006][20210819 16:26:11:253][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2626962][20210819 16:26:12:210][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:254,cur sn:254
+Debug>> [   2628029][20210819 16:26:13:276][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:0,cur sn:0
+Debug>> [   2642719][20210819 16:26:27:966][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:12,cur sn:12
+Debug>> [   2645878][20210819 16:26:31:125][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:14,cur sn:14
+Debug>> [   2647290][20210819 16:26:32:537][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:15,cur sn:15
+Debug>> [   2649220][20210819 16:26:34:468][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:17,cur sn:17
+Debug>> [   2650294][20210819 16:26:35:541][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:18,cur sn:18
+Debug>> [   2652338][20210819 16:26:37:586][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:19,cur sn:19
+ Warn>> [   2652396][20210819 16:26:37:643][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2659929][20210819 16:26:45:177][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:26,cur sn:26
+ Warn>> [   2659985][20210819 16:26:45:233][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2668219][20210819 16:26:53:466][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:33,cur sn:33
+Debug>> [   2684120][20210819 16:27:09:367][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:47,cur sn:47
+Debug>> [   2699973][20210819 16:27:25:220][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:61,cur sn:61
+Debug>> [   2701042][20210819 16:27:26:289][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:62,cur sn:62
+ Warn>> [   2706976][20210819 16:27:32:223][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2707709][20210819 16:27:32:957][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:67,cur sn:67
+Debug>> [   2728772][20210819 16:27:54:020][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:85,cur sn:85
+Debug>> [   2730000][20210819 16:27:55:247][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:86,cur sn:86
+Debug>> [   2731075][20210819 16:27:56:322][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:87,cur sn:87
+Debug>> [   2732139][20210819 16:27:57:386][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:88,cur sn:88
+Debug>> [   2735159][20210819 16:28:00:406][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:90,cur sn:90
+Debug>> [   2737290][20210819 16:28:02:538][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:91,cur sn:91
+Debug>> [   2738359][20210819 16:28:03:606][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:93,cur sn:93
+Debug>> [   2776040][20210819 16:28:41:288][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:125,cur sn:125
+Debug>> [   2777124][20210819 16:28:42:371][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:126,cur sn:126
+Trace>> [   2783061][20210819 16:28:48:309][  1692][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Debug>> [   2798478][20210819 16:29:03:725][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:145,cur sn:145
+ Warn>> [   2798536][20210819 16:29:03:784][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2820091][20210819 16:29:25:338][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:164,cur sn:164
+Debug>> [   2821159][20210819 16:29:26:407][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:165,cur sn:165
+Debug>> [   2822229][20210819 16:29:27:477][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:166,cur sn:166
+Debug>> [   2823301][20210819 16:29:28:548][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:168,cur sn:168
+Debug>> [   2824372][20210819 16:29:29:619][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:169,cur sn:169
+Debug>> [   2827291][20210819 16:29:32:539][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:170,cur sn:170
+ Warn>> [   2827407][20210819 16:29:32:654][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2828352][20210819 16:29:33:599][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:172,cur sn:172
+ Warn>> [   2829148][20210819 16:29:34:395][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2830100][20210819 16:29:35:348][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:173,cur sn:173
+Debug>> [   2843260][20210819 16:29:48:507][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:185,cur sn:185
+Debug>> [   2846090][20210819 16:29:51:338][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:186,cur sn:186
+Debug>> [   2847160][20210819 16:29:52:408][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:187,cur sn:187
+Debug>> [   2848291][20210819 16:29:53:538][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:189,cur sn:189
+Debug>> [   2849573][20210819 16:29:54:820][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:190,cur sn:190
+Debug>> [   2850640][20210819 16:29:55:888][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:191,cur sn:191
+ Warn>> [   2850757][20210819 16:29:56:004][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2851710][20210819 16:29:56:957][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:192,cur sn:192
+Debug>> [   2852780][20210819 16:29:58:028][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:193,cur sn:193
+ Warn>> [   2852837][20210819 16:29:58:085][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2903850][20210819 16:30:49:098][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:239,cur sn:239
+Debug>> [   2906300][20210819 16:30:51:548][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:240,cur sn:240
+Debug>> [   2907382][20210819 16:30:52:629][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:241,cur sn:241
+Debug>> [   2909473][20210819 16:30:54:720][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:243,cur sn:243
+Debug>> [   2910541][20210819 16:30:55:788][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:244,cur sn:244
+Debug>> [   2911611][20210819 16:30:56:858][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:245,cur sn:245
+ Warn>> [   2911728][20210819 16:30:56:975][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2912680][20210819 16:30:57:928][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:246,cur sn:246
+Debug>> [   2926240][20210819 16:31:11:488][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:2,cur sn:2
+Debug>> [   2927315][20210819 16:31:12:563][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:3,cur sn:3
+Debug>> [   2928440][20210819 16:31:13:688][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:5,cur sn:5
+Debug>> [   2930201][20210819 16:31:15:448][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:6,cur sn:6
+Debug>> [   2931420][20210819 16:31:16:667][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:7,cur sn:7
+Debug>> [   2934581][20210819 16:31:19:828][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:9,cur sn:9
+ Warn>> [   2936338][20210819 16:31:21:585][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2937293][20210819 16:31:22:540][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:10,cur sn:10
+ Warn>> [   2943028][20210819 16:31:28:276][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   2943981][20210819 16:31:29:228][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:18,cur sn:18
+Debug>> [   2949973][20210819 16:31:35:221][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:22,cur sn:22
+Error>> [   2960905][20210819 16:31:46:153][  1692][rxThreadFunc@235]Keepalive timeout, MCU is dead, timeout is 10870.223537 ms
+Trace>> [   2960905][20210819 16:31:46:153][  1692][disconnect@312]MPU is disconnected from MCU
+Trace>> [   2960905][20210819 16:31:46:153][  1692][rxThreadFunc@237]Now try to reconnect...
+Trace>> [   2960905][20210819 16:31:46:153][  1692][connect@256]Now connect MCU...
+Trace>> [   2960910][20210819 16:31:46:157][  1692][operator()@287]Trying to connect...
+Trace>> [   2965910][20210819 16:31:51:158][  1692][operator()@287]Trying to connect...
+ Warn>> [   2965918][20210819 16:31:51:165][  1692][parseMsg@428]Message received result is 1, connection state is 1
+Trace>> [   2970911][20210819 16:31:56:158][  1692][operator()@287]Trying to connect...
+Trace>> [   2970919][20210819 16:31:56:166][  1692][parseMsg@412]Notify connection thread finished
+Trace>> [   2970919][20210819 16:31:56:166][  1692][parseMsg@418]Wait for connection thread finished
+Trace>> [   2970919][20210819 16:31:56:167][  1692][operator()@292]Connect MCU successfully
+Trace>> [   2970919][20210819 16:31:56:167][  1692][parseMsg@423]MPU establishes connection with the MCU
+Debug>> [   2984532][20210819 16:32:09:780][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:38,cur sn:38
+Debug>> [   2985601][20210819 16:32:10:849][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:39,cur sn:39
+Debug>> [   2986675][20210819 16:32:11:922][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:40,cur sn:40
+Debug>> [   2987743][20210819 16:32:12:990][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:42,cur sn:42
+Debug>> [   2988811][20210819 16:32:14:058][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:43,cur sn:43
+Debug>> [   2990262][20210819 16:32:15:510][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:44,cur sn:44
+Debug>> [   2991721][20210819 16:32:16:968][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:45,cur sn:45
+Debug>> [   3002543][20210819 16:32:27:790][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:56,cur sn:56
+ Warn>> [   3002599][20210819 16:32:27:846][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   3017292][20210819 16:32:42:539][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:69,cur sn:69
+Debug>> [   3023162][20210819 16:32:48:409][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:74,cur sn:74
+Debug>> [   3030652][20210819 16:32:55:899][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:80,cur sn:80
+ Warn>> [   3036338][20210819 16:33:01:585][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   3037294][20210819 16:33:02:542][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:86,cur sn:86
+Debug>> [   3040312][20210819 16:33:05:560][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:90,cur sn:90
+ Warn>> [   3040371][20210819 16:33:05:619][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   3047293][20210819 16:33:12:541][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:97,cur sn:97
+Debug>> [   3050322][20210819 16:33:15:570][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:99,cur sn:99
+ Warn>> [   3050379][20210819 16:33:15:627][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   3070977][20210819 16:33:36:225][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:117,cur sn:117
+Debug>> [   3083523][20210819 16:33:48:771][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:128,cur sn:128
+Debug>> [   3088343][20210819 16:33:53:590][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:132,cur sn:132
+Debug>> [   3089923][20210819 16:33:55:170][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:133,cur sn:133
+Debug>> [   3106483][20210819 16:34:11:730][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:148,cur sn:148
+Debug>> [   3115224][20210819 16:34:20:471][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:156,cur sn:156
+Debug>> [   3118362][20210819 16:34:23:610][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:159,cur sn:159
+ Warn>> [   3118419][20210819 16:34:23:667][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   3120393][20210819 16:34:25:640][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:160,cur sn:160
+ Warn>> [   3120448][20210819 16:34:25:696][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   3122923][20210819 16:34:28:170][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:164,cur sn:164
+Trace>> [   3123832][20210819 16:34:29:079][  1692][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Debug>> [   3129122][20210819 16:34:34:370][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:168,cur sn:168
+Debug>> [   3130402][20210819 16:34:35:650][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:169,cur sn:169
+Debug>> [   3132674][20210819 16:34:37:922][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:171,cur sn:171
+Trace>> [   3133103][20210819 16:34:38:350][  1692][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Debug>> [   3134478][20210819 16:34:39:725][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:172,cur sn:172
+Debug>> [   3135923][20210819 16:34:41:170][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:173,cur sn:173
+Debug>> [   3136992][20210819 16:34:42:239][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:174,cur sn:174
+ Warn>> [   3137109][20210819 16:34:42:356][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   3138063][20210819 16:34:43:310][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:176,cur sn:176
+Debug>> [   3139422][20210819 16:34:44:670][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:177,cur sn:177
+ Warn>> [   3139479][20210819 16:34:44:726][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   3147355][20210819 16:34:52:602][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:184,cur sn:184
+Debug>> [   3149423][20210819 16:34:54:670][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:185,cur sn:185
+Debug>> [   3150494][20210819 16:34:55:741][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:186,cur sn:186
+Debug>> [   3151562][20210819 16:34:56:810][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:187,cur sn:187
+Debug>> [   3152723][20210819 16:34:57:970][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:189,cur sn:189
+Debug>> [   3155983][20210819 16:35:01:230][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:190,cur sn:190
+ Warn>> [   3156399][20210819 16:35:01:646][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   3157294][20210819 16:35:02:542][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:191,cur sn:191
+Debug>> [   3160434][20210819 16:35:05:681][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:196,cur sn:196
+ Warn>> [   3160489][20210819 16:35:05:736][  1692][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3166379][20210819 16:35:11:627][  1692][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [   3166563][20210819 16:35:11:811][  1692][handleUartMessage@86]received mcu log msg, but same sn, pre sn:20
+Trace>> [     33348][19700101 08:54:27:361][  1715][main@221]Version information: mculogger v3.2.7, 2021/8/09
+Trace>> [     33349][19700101 08:54:27:362][  1715][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [     33358][19700101 08:54:27:371][  1715][init@62]Start UART rx thread
+Trace>> [     33358][19700101 08:54:27:371][  1715][init@69]UART protocol stack initialization successful
+Trace>> [     33358][19700101 08:54:27:371][  1715][connect@256]Now connect MCU...
+Trace>> [     33363][19700101 08:54:27:376][  1719][operator()@287]Trying to connect...
+Trace>> [     33369][19700101 08:54:27:383][  1718][parseMsg@412]Notify connection thread finished
+Trace>> [     33369][19700101 08:54:27:383][  1718][parseMsg@418]Wait for connection thread finished
+Trace>> [     33369][19700101 08:54:27:383][  1719][operator()@292]Connect MCU successfully
+Trace>> [     33370][19700101 08:54:27:383][  1718][parseMsg@423]MPU establishes connection with the MCU
+Trace>> [     33463][19700101 08:54:27:477][  1715][main@247]Start IPC handler successful
+Trace>> [     33469][19700101 08:54:27:482][  1715][main@253]Start IPC receiving successful
+Trace>> [     33469][19700101 08:54:27:482][  1715][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [     33470][19700101 08:54:27:483][  1722][logThreadProc@166]log thread proc run 
+
+ Warn>> [     43459][19700101 08:54:37:472][  1718][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [     43921][20210819 16:37:00:515][  1718][handleUartMessage@86]received mcu log msg, but same sn, pre sn:47,cur sn:47
+Debug>> [     52574][20210819 16:37:09:169][  1718][handleUartMessage@86]received mcu log msg, but same sn, pre sn:56,cur sn:56
+ Warn>> [     52630][20210819 16:37:09:224][  1718][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [     53703][20210819 16:37:10:298][  1718][handleUartMessage@86]received mcu log msg, but same sn, pre sn:57,cur sn:57
+Debug>> [     57334][20210819 16:37:13:928][  1718][handleUartMessage@86]received mcu log msg, but same sn, pre sn:64,cur sn:64
+ Warn>> [     57389][20210819 16:37:13:984][  1718][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [     62112][20210819 16:37:18:707][  1718][handleUartMessage@86]received mcu log msg, but same sn, pre sn:70,cur sn:70
+Debug>> [     63201][20210819 16:37:19:796][  1718][handleUartMessage@86]received mcu log msg, but same sn, pre sn:71,cur sn:71
+Debug>> [     64266][20210819 16:37:20:860][  1718][handleUartMessage@86]received mcu log msg, but same sn, pre sn:72,cur sn:72
+Debug>> [     65339][20210819 16:37:21:934][  1718][handleUartMessage@86]received mcu log msg, but same sn, pre sn:74,cur sn:74
+Debug>> [     66408][20210819 16:37:23:003][  1718][handleUartMessage@86]received mcu log msg, but same sn, pre sn:75,cur sn:75
+Debug>> [     67477][20210819 16:37:24:071][  1718][handleUartMessage@86]received mcu log msg, but same sn, pre sn:76,cur sn:76
+ Warn>> [     68510][20210819 16:37:25:104][  1718][parseMsg@428]Message received result is 1, connection state is 2
+Debug>> [     68574][20210819 16:37:25:168][  1718][handleUartMessage@86]received mcu log msg, but same sn, pre sn:77,cur sn:77
+Debug>> [     69649][20210819 16:37:26:244][  1718][handleUartMessage@86]received mcu log msg, but same sn, pre sn:79,cur sn:79
+Error>> [     85370][20210819 16:37:41:965][  1718][rxThreadFunc@235]Keepalive timeout, MCU is dead, timeout is 10997.055048 ms
+Trace>> [     85371][20210819 16:37:41:965][  1718][disconnect@312]MPU is disconnected from MCU
+Trace>> [     85371][20210819 16:37:41:965][  1718][rxThreadFunc@237]Now try to reconnect...
+Trace>> [     85371][20210819 16:37:41:965][  1718][connect@256]Now connect MCU...
+Trace>> [     85371][20210819 16:37:41:965][  5745][operator()@287]Trying to connect...
+Trace>> [     90372][20210819 16:37:46:966][  5745][operator()@287]Trying to connect...
+Trace>> [     95372][20210819 16:37:51:966][  5745][operator()@287]Trying to connect...
+Trace>> [    100372][20210819 16:37:56:967][  5745][operator()@287]Trying to connect...
+Trace>> [    105373][20210819 16:38:01:967][  5745][operator()@287]Trying to connect...
+Trace>> [    110373][20210819 16:38:06:968][  5745][operator()@287]Trying to connect...
+Trace>> [    115374][20210819 16:38:11:968][  5745][operator()@287]Trying to connect...
+Trace>> [    120375][20210819 16:38:16:969][  5745][operator()@287]Trying to connect...
+Trace>> [    125375][20210819 16:38:21:969][  5745][operator()@287]Trying to connect...
+Trace>> [    130376][20210819 16:38:26:971][  5745][operator()@287]Trying to connect...
+Trace>> [    135377][20210819 16:38:31:971][  5745][operator()@287]Trying to connect...
+Trace>> [    140377][20210819 16:38:36:971][  5745][operator()@287]Trying to connect...
+Trace>> [    145378][20210819 16:38:41:972][  5745][operator()@287]Trying to connect...
+Trace>> [    150378][20210819 16:38:46:973][  5745][operator()@287]Trying to connect...
+Trace>> [    155379][20210819 16:38:51:973][  5745][operator()@287]Trying to connect...
+Trace>> [    160379][20210819 16
+Trace>> [     26550][19700101 08:00:29:563][  1688][main@221]Version information: mculogger v3.2.7, 2021/8/09
+Trace>> [     26552][19700101 08:00:29:565][  1688][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [     26561][19700101 08:00:29:574][  1688][init@62]Start UART rx thread
+Trace>> [     26561][19700101 08:00:29:574][  1688][init@69]UART protocol stack initialization successful
+Trace>> [     26561][19700101 08:00:29:574][  1688][connect@256]Now connect MCU...
+Trace>> [     26565][19700101 08:00:29:578][  1692][operator()@287]Trying to connect...
+Trace>> [     26574][19700101 08:00:29:587][  1691][parseMsg@412]Notify connection thread finished
+Trace>> [     26574][19700101 08:00:29:587][  1691][parseMsg@418]Wait for connection thread finished
+Trace>> [     26575][19700101 08:00:29:587][  1692][operator()@292]Connect MCU successfully
+Trace>> [     26575][19700101 08:00:29:588][  1691][parseMsg@423]MPU establishes connection with the MCU
+Trace>> [     26666][19700101 08:00:29:679][  1688][main@247]Start IPC handler successful
+Trace>> [     26672][19700101 08:00:29:685][  1688][main@253]Start IPC receiving successful
+Trace>> [     26672][19700101 08:00:29:685][  1688][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [     26679][19700101 08:00:29:692][  1696][logThreadProc@166]log thread proc run 
+
+ Warn>> [     31715][19700101 08:00:34:728][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [     51705][20210819 16:40:27:337][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [     76304][20210819 16:40:51:937][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [     86106][20210819 16:41:01:739][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [     96846][20210819 16:41:12:479][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    101555][20210819 16:41:17:188][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    101804][20210819 16:41:17:437][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    106404][20210819 16:41:22:037][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    126127][20210819 16:41:41:760][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    146365][20210819 16:42:01:998][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    167465][20210819 16:42:23:098][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    206305][20210819 16:43:01:938][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    220586][20210819 16:43:16:219][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    231086][20210819 16:43:26:719][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    248665][20210819 16:43:44:298][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    267387][20210819 16:44:03:020][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    269647][20210819 16:44:05:280][  1691][parseMsg@428]Message received result is 1, connection state is 2
+Error>> [    282575][20210819 16:44:18:208][  1691][rxThreadFunc@235]Keepalive timeout, MCU is dead, timeout is 10625.558589 ms
+Trace>> [    282575][20210819 16:44:18:208][  1691][disconnect@312]MPU is disconnected from MCU
+Trace>> [    282575][20210819 16:44:18:208][  1691][rxThreadFunc@237]Now try to reconnect...
+Trace>> [    282575][20210819 16:44:18:208][  1691][connect@256]Now connect MCU...
+Trace>> [    282576][20210819 16:44:18:209][ 24128][operator()@287]Trying to connect...
+Trace>> [    287576][20210819 16:44:23:209][ 24128][operator()@287]Trying to connect...
+ Warn>> [    287586][20210819 16:44:23:219][  1691][parseMsg@428]Message received result is 1, connection state is 1
+Trace>> [    292577][20210819 16:44:28:210][ 24128][operator()@287]Trying to connect...
+Trace>> [    292587][20210819 16:44:28:220][  1691][parseMsg@412]Notify connection thread finished
+Trace>> [    292587][20210819 16:44:28:220][  1691][parseMsg@418]Wait for connection thread finished
+Trace>> [    292587][20210819 16:44:28:220][ 24128][operator()@292]Connect MCU successfully
+Trace>> [    292587][20210819 16:44:28:220][  1691][parseMsg@423]MPU establishes connection with the MCU
+ Warn>> [    316830][20210819 16:44:52:463][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    341466][20210819 16:45:17:099][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    343686][20210819 16:45:19:319][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    352778][20210819 16:45:28:411][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    376629][20210819 16:45:52:262][  1691][parseMsg@428]Message received result is 1, connection state is 2
+ War
+Trace>> [     26415][19700101 08:08:18:428][  1738][main@221]Version information: mculogger v3.2.7, 2021/8/09
+Trace>> [     26416][19700101 08:08:18:429][  1738][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [     26429][19700101 08:08:18:442][  1738][init@62]Start UART rx thread
+Trace>> [     26438][19700101 08:08:18:451][  1738][init@69]UART protocol stack initialization successful
+Trace>> [     26438][19700101 08:08:18:451][  1738][connect@256]Now connect MCU...
+Trace>> [     26446][19700101 08:08:18:459][  1746][operator()@287]Trying to connect...
+Trace>> [     26459][19700101 08:08:18:472][  1745][parseMsg@412]Notify connection thread finished
+Trace>> [     26459][19700101 08:08:18:472][  1745][parseMsg@418]Wait for connection thread finished
+Trace>> [     26459][19700101 08:08:18:472][  1746][operator()@292]Connect MCU successfully
+Trace>> [     26460][19700101 08:08:18:473][  1745][parseMsg@423]MPU establishes connection with the MCU
+Trace>> [     26546][19700101 08:08:18:559][  1738][main@247]Start IPC handler successful
+Trace>> [     26549][19700101 08:08:18:562][  1738][main@253]Start IPC receiving successful
+Trace>> [     26549][19700101 08:08:18:562][  1738][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [     26570][19700101 08:08:18:583][  1765][logThreadProc@166]log thread proc run 
+
+ Warn>> [     36039][20210819 16:48:00:698][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [     48379][20210819 16:48:13:038][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [     57379][20210819 16:48:22:038][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [     66609][20210819 16:48:31:268][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [     67681][20210819 16:48:32:340][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [     78879][20210819 16:48:43:539][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    106912][20210819 16:49:11:571][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    134289][20210819 16:49:38:949][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    161802][20210819 16:50:06:462][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    181840][20210819 16:50:26:500][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    187840][20210819 16:50:32:499][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    200650][20210819 16:50:45:310][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    213191][20210819 16:50:57:850][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    217881][20210819 16:51:02:540][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    229050][20210819 16:51:13:710][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    251334][20210819 16:51:35:993][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    272020][20210819 16:51:56:680][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    287050][20210819 16:52:11:710][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    324191][20210819 16:52:48:850][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    327411][20210819 16:52:52:070][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    343192][20210819 16:53:07:851][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    366912][20210819 16:53:31:572][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    374671][20210819 16:53:39:330][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    392261][20210819 16:53:56:921][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Error>> [    407461][20210819 16:54:12:120][  1745][rxThreadFunc@235]Keepalive timeout, MCU is dead, timeout is 10454.992652 ms
+Trace>> [    407461][20210819 16:54:12:120][  1745][disconnect@312]MPU is disconnected from MCU
+Trace>> [    407461][20210819 16:54:12:120][  1745][rxThreadFunc@237]Now try to reconnect...
+Trace>> [    407461][20210819 16:54:12:120][  1745][connect@256]Now connect MCU...
+Trace>> [    407461][20210819 16:54:12:121][ 31423][operator()@287]Trying to connect...
+Trace>> [    407472][20210819 16:54:12:131][  1745][parseMsg@412]Notify connection thread finished
+Trace>> [    407472][20210819 16:54:12:131][  1745][parseMsg@418]Wait for connection thread finished
+Trace>> [    407472][20210819 16:54:12:131][ 31423][operator()@292]Connect MCU successfully
+Trace>> [    407472][20210819 16:54:12:131][  1745][parseMsg@423]MPU establishes connection with the MCU
+ Warn>> [    437812][20210819 16:54:42:472][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    452636][20210819 16:54:57:295][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    458202][20210819 16:55:02:861][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    473224][20210819 16:55:17:883][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    596914][20210819 16:57:21:574][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    608454][20210819 16:57:33:113][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    673074][20210819 16:58:37:734][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    676914][20210819 16:58:41:573][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    696165][20210819 16:59:00:824][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    703138][20210819 16:59:07:798][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    708084][20210819 16:59:12:743][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    740755][20210819 16:59:45:414][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [    750174][20210819 16:59:54:833][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Error>> [    792472][20210819 17:00:37:132][  1745][rxThreadFunc@235]Keepalive timeout, MCU is dead, timeout is 10834.381506 ms
+Trace>> [    792472][20210819 17:00:37:132][  1745][disconnect@312]MPU is disconnected from MCU
+Trace>> [    792472][20210819 17:00:37:132][  1745][rxThreadFunc@237]Now try to reconnect...
+Trace>> [    792472][20210819 17:00:37:132][  1745][connect@256]Now connect MCU...
+Trace>> [    792473][20210819 17:00:37:132][ 29109][operator()@287]Trying to connect...
+Trace>> [    792486][20210819 17:00:37:145][  1745][parseMsg@412]Notify connection thread finished
+Trace>> [    792486][20210819 17:00:37:145][  1745][parseMsg@418]Wait for connection thread finished
+Trace>> [    792486][20210819 17:00:37:146][ 29109][operator()@292]Connect MCU successfully
+Trace>> [    792486][20210819 17:00:37:146][  1745][parseMsg@423]MPU establishes connection with the MCU
+ Warn>> [    842656][20210819 17:01:27:315][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    878255][20210819 17:02:02:915][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    896916][20210819 17:02:21:575][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [    938846][20210819 17:03:03:505][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1006139][20210819 17:04:10:799][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Error>> [   1022487][20210819 17:04:27:146][  1745][rxThreadFunc@235]Keepalive timeout, MCU is dead, timeout is 10106.725153 ms
+Trace>> [   1022487][20210819 17:04:27:146][  1745][disconnect@312]MPU is disconnected from MCU
+Trace>> [   1022487][20210819 17:04:27:146][  1745][rxThreadFunc@237]Now try to reconnect...
+Trace>> [   1022487][20210819 17:04:27:146][  1745][connect@256]Now connect MCU...
+Trace>> [   1022487][20210819 17:04:27:147][ 14779][operator()@287]Trying to connect...
+Trace>> [   1027488][20210819 17:04:32:147][ 14779][operator()@287]Trying to connect...
+ Warn>> [   1027496][20210819 17:04:32:156][  1745][parseMsg@428]Message received result is 1, connection state is 1
+Trace>> [   1032489][20210819 17:04:37:148][ 14779][operator()@287]Trying to connect...
+Trace>> [   1032497][20210819 17:04:37:157][  1745][parseMsg@412]Notify connection thread finished
+Trace>> [   1032497][20210819 17:04:37:157][  1745][parseMsg@418]Wait for connection thread finished
+Trace>> [   1032497][20210819 17:04:37:157][ 14779][operator()@292]Connect MCU successfully
+Trace>> [   1032498][20210819 17:04:37:157][  1745][parseMsg@423]MPU establishes connection with the MCU
+ Warn>> [   1056916][20210819 17:05:01:576][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1059007][20210819 17:05:03:667][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1078517][20210819 17:05:23:176][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1083918][20210819 17:05:28:577][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1097657][20210819 17:05:42:316][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1107097][20210819 17:05:51:757][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1128508][20210819 17:06:13:167][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1142789][20210819 17:06:27:448][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1154377][20210819 17:06:39:037][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1163988][20210819 17:06:48:647][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1186918][20210819 17:07:11:577][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1196919][20210819 17:07:21:578][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1199198][20210819 17:07:23:858][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1218600][20210819 17:07:43:259][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1230219][20210819 17:07:54:878][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1237978][20210819 17:08:02:638][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1239249][20210819 17:08:03:908][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1245899][20210819 17:08:10:558][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1297018][20210819 17:09:01:678][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1298678][20210819 17:09:03:338][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1394979][20210819 17:10:39:638][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1428809][20210819 17:11:13:469][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1483520][20210819 17:12:08:180][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   1509878][20210819 17:12:34:537][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   1545251][20210819 17:13:09:911][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1562443][20210819 17:13:27:103][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1578202][20210819 17:13:42:861][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1579871][20210819 17:13:44:531][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1598701][20210819 17:14:03:361][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1603711][20210819 17:14:08:370][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1616921][20210819 17:14:21:580][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1629012][20210819 17:14:33:672][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1663831][20210819 17:15:08:491][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1666946][20210819 17:15:11:606][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1679061][20210819 17:15:23:721][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1682661][20210819 17:15:27:321][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1683871][20210819 17:15:28:531][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1686923][20210819 17:15:31:582][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1718333][20210819 17:16:02:992][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1726762][20210819 17:16:11:421][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1752913][20210819 17:16:37:572][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1761422][20210819 17:16:46:082][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1780392][20210819 17:17:05:052][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1796083][20210819 17:17:20:742][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1810652][20210819 17:17:35:312][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1822162][20210819 17:17:46:822][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1833733][20210819 17:17:58:392][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1865783][20210819 17:18:30:442][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1874253][20210819 17:18:38:912][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1884274][20210819 17:18:48:934][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1886923][20210819 17:18:51:582][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1954414][20210819 17:19:59:074][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1960693][20210819 17:20:05:353][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   1970348][20210819 17:20:15:007][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2005273][20210819 17:20:49:933][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2017703][20210819 17:21:02:363][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2020295][20210819 17:21:04:954][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2039426][20210819 17:21:24:085][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2042985][20210819 17:21:27:645][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2068084][20210819 17:21:52:743][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2093425][20210819 17:22:18:084][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2121985][20210819 17:22:46:645][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2129515][20210819 17:22:54:174][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2154815][20210819 17:23:19:475][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2166926][20210819 17:23:31:586][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2200535][20210819 17:24:05:194][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2207265][20210819 17:24:11:925][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2226926][20210819 17:24:31:586][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   2269182][20210819 17:25:13:841][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   2295156][20210819 17:25:39:815][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2315137][20210819 17:25:59:796][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2316947][20210819 17:26:01:607][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2350206][20210819 17:26:34:865][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2385278][20210819 17:27:09:937][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2410326][20210819 17:27:34:986][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2435377][20210819 17:28:00:036][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2466688][20210819 17:28:31:348][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2485477][20210819 17:28:50:137][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Error>> [   2500498][20210819 17:29:05:157][  1745][rxThreadFunc@235]Keepalive timeout, MCU is dead, timeout is 10676.786089 ms
+Trace>> [   2500498][20210819 17:29:05:158][  1745][disconnect@312]MPU is disconnected from MCU
+Trace>> [   2500498][20210819 17:29:05:158][  1745][rxThreadFunc@237]Now try to reconnect...
+Trace>> [   2500498][20210819 17:29:05:158][  1745][connect@256]Now connect MCU...
+Trace>> [   2500501][20210819 17:29:05:161][   871][operator()@287]Trying to connect...
+Trace>> [   2500507][20210819 17:29:05:167][  1745][parseMsg@412]Notify connection thread finished
+Trace>> [   2500508][20210819 17:29:05:167][  1745][parseMsg@418]Wait for connection thread finished
+Trace>> [   2500508][20210819 17:29:05:167][   871][operator()@292]Connect MCU successfully
+Trace>> [   2500508][20210819 17:29:05:167][  1745][parseMsg@423]MPU establishes connection with the MCU
+ Warn>> [   2533188][20210819 17:29:37:847][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2545668][20210819 17:29:50:327][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2546929][20210819 17:29:51:589][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2555189][20210819 17:29:59:848][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2577140][20210819 17:30:21:799][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Error>> [   2600508][20210819 17:30:45:168][  1745][rxThreadFunc@235]Keepalive timeout, MCU is dead, timeout is 10586.067183 ms
+Trace>> [   2600508][20210819 17:30:45:168][  1745][disconnect@312]MPU is disconnected from MCU
+Trace>> [   2600508][20210819 17:30:45:168][  1745][rxThreadFunc@237]Now try to reconnect...
+Trace>> [   2600508][20210819 17:30:45:168][  1745][connect@256]Now connect MCU...
+Trace>> [   2600509][20210819 17:30:45:168][  8957][operator()@287]Trying to connect...
+Trace>> [   2605509][20210819 17:30:50:169][  8957][operator()@287]Trying to connect...
+ Warn>> [   2605519][20210819 17:30:50:178][  1745][parseMsg@428]Message received result is 1, connection state is 1
+Trace>> [   2610509][20210819 17:30:55:169][  8957][operator()@287]Trying to connect...
+Trace>> [   2610539][20210819 17:30:55:199][  1745][parseMsg@412]Notify connection thread finished
+Trace>> [   2610540][20210819 17:30:55:199][  1745][parseMsg@418]Wait for connection thread finished
+Trace>> [   2610540][20210819 17:30:55:199][  8957][operator()@292]Connect MCU successfully
+Trace>> [   2610540][20210819 17:30:55:199][  1745][parseMsg@423]MPU establishes connection with the MCU
+ Warn>> [   2660709][20210819 17:31:45:368][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2676929][20210819 17:32:01:588][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2750139][20210819 17:33:14:799][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2770160][20210819 17:33:34:820][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2852856][20210819 17:34:57:515][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2871880][20210819 17:35:16:540][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Error>> [   2885541][20210819 17:35:30:200][  1745][rxThreadFunc@235]Keepalive timeout, MCU is dead, timeout is 10782.405465 ms
+Trace>> [   2885541][20210819 17:35:30:200][  1745][disconnect@312]MPU is disconnected from MCU
+Trace>> [   2885541][20210819 17:35:30:200][  1745][rxThreadFunc@237]Now try to reconnect...
+Trace>> [   2885541][20210819 17:35:30:200][  1745][connect@256]Now connect MCU...
+Trace>> [   2885541][20210819 17:35:30:201][ 31069][operator()@287]Trying to connect...
+Trace>> [   2890542][20210819 17:35:35:201][ 31069][operator()@287]Trying to connect...
+ Warn>> [   2890553][20210819 17:35:35:213][  1745][parseMsg@428]Message received result is 1, connection state is 1
+Trace>> [   2895542][20210819 17:35:40:201][ 31069][operator()@287]Trying to connect...
+Trace>> [   2900543][20210819 17:35:45:202][ 31069][operator()@287]Trying to connect...
+ Warn>> [   2900556][20210819 17:35:45:216][  1745][parseMsg@428]Message received result is 1, connection state is 1
+Trace>> [   2905543][20210819 17:35:50:203][ 31069][operator()@287]Trying to connect...
+Trace>> [   2910543][20210819 17:35:55:203][ 31069][operator()@287]Trying to connect...
+Trace>> [   2915544][20210819 17:36:00:203][ 31069][operator()@287]Trying to connect...
+Trace>> [   2920544][20210819 17:36:05:204][ 31069][operator()@287]Trying to connect...
+Trace>> [   2925545][20210819 17:36:10:205][ 31069][operator()@287]Trying to connect...
+Trace>> [   2930546][20210819 17:36:15:205][ 31069][operator()@287]Trying to connect...
+Trace>> [   2935547][20210819 17:36:20:206][ 31069][operator()@287]Trying to connect...
+Trace>> [   2940548][20210819 17:36:25:207][ 31069][operator()@287]Trying to connect...
+Trace>> [   2945548][20210819 17:36:30:208][ 31069][operator()@287]Trying to connect...
+Trace>> [   2950549][20210819 17:36:35:208][ 31069][operator()@287]Trying to connect...
+Trace>> [   2955550][20210819 17:36:40:210][ 31069][operator()@287]Trying to connect...
+ Warn>> [   2955561][20210819 17:36:40:220][  1745][parseMsg@428]Message received result is 1, connection state is 1
+Trace>> [   2960551][20210819 17:36:45:210][ 31069][operator()@287]Trying to connect...
+Trace>> [   2960564][20210819 17:36:45:223][  1745][parseMsg@412]Notify connection thread finished
+Trace>> [   2960564][20210819 17:36:45:223][  1745][parseMsg@418]Wait for connection thread finished
+Trace>> [   2960564][20210819 17:36:45:223][ 31069][operator()@292]Connect MCU successfully
+Trace>> [   2960564][20210819 17:36:45:223][  1745][parseMsg@423]MPU establishes connection with the MCU
+ Warn>> [   2975910][20210819 17:37:00:570][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   2985310][20210819 17:37:09:970][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3005721][20210819 17:37:30:380][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3020754][20210819 17:37:45:414][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   3026711][20210819 17:37:51:370][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   3038892][20210819 17:38:03:551][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3041661][20210819 17:38:06:321][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3051501][20210819 17:38:16:160][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3056681][20210819 17:38:21:341][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3073512][20210819 17:38:38:172][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Error>> [   3090564][20210819 17:38:55:224][  1745][rxThreadFunc@235]Keepalive timeout, MCU is dead, timeout is 10169.310413 ms
+Trace>> [   3090565][20210819 17:38:55:224][  1745][disconnect@312]MPU is disconnected from MCU
+Trace>> [   3090565][20210819 17:38:55:224][  1745][rxThreadFunc@237]Now try to reconnect...
+Trace>> [   3090565][20210819 17:38:55:224][  1745][connect@256]Now connect MCU...
+Trace>> [   3090565][20210819 17:38:55:225][ 14746][operator()@287]Trying to connect...
+Trace>> [   3090571][20210819 17:38:55:231][  1745][parseMsg@412]Notify connection thread finished
+Trace>> [   3090571][20210819 17:38:55:231][  1745][parseMsg@418]Wait for connection thread finished
+Trace>> [   3090571][20210819 17:38:55:231][ 14746][operator()@292]Connect MCU successfully
+Trace>> [   3090572][20210819 17:38:55:231][  1745][parseMsg@423]MPU establishes connection with the MCU
+Trace>> [   3555521][20210819 17:46:40:180][  1764][handleIpcMessage@127]Received power state is suspend or off
+Trace>> [   3555522][20210819 17:46:40:181][  1764][setAppWorkStaus@2324]To set App 14 working status as 2
+Trace>> [   3555522][20210819 17:46:40:181][  1764][handleIpcMessage@133]Set mculogger app work state successful
+Trace>> [   3562094][20210820 10:43:52:607][  1764][handleIpcMessage@141]Received power state is resume
+Debug>> [   3562094][20210820 10:43:52:607][  1764][sendPowerStateToMcu@110]sendPowerStateToMcu:1
+Debug>> [   3562095][20210820 10:43:52:607][  1764][sendPowerStateToMcu@110]sendPowerStateToMcu:1
+Debug>> [   3562095][20210820 10:43:52:607][  1764][sendPowerStateToMcu@110]sendPowerStateToMcu:1
+Error>> [   3566572][20210820 10:43:57:085][  1745][rxThreadFunc@235]Keepalive timeout, MCU is dead, timeout is 10057.918381 ms
+Trace>> [   3566572][20210820 10:43:57:085][  1745][disconnect@312]MPU is disconnected from MCU
+Trace>> [   3566572][20210820 10:43:57:085][  1745][rxThreadFunc@237]Now try to reconnect...
+Trace>> [   3566572][20210820 10:43:57:085][  1745][connect@256]Now connect MCU...
+Trace>> [   3566573][20210820 10:43:57:086][ 18830][operator()@287]Trying to connect...
+Trace>> [   3566581][20210820 10:43:57:094][  1745][parseMsg@412]Notify connection thread finished
+Trace>> [   3566582][20210820 10:43:57:094][  1745][parseMsg@418]Wait for connection thread finished
+Trace>> [   3566582][20210820 10:43:57:094][ 18830][operator()@292]Connect MCU successfully
+Trace>> [   3566582][20210820 10:43:57:095][  1745][parseMsg@423]MPU establishes connection with the MCU
+ Warn>> [   3573804][20210820 10:44:04:317][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3637027][20210820 10:45:07:540][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3657317][20210820 10:45:27:830][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3662127][20210820 10:45:32:640][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3713127][20210820 10:46:23:640][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3720918][20210820 10:46:31:430][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3732418][20210820 10:46:42:930][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3777478][20210820 10:47:27:990][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   3781618][20210820 10:47:32:130][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   3815188][20210820 10:48:05:701][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3837569][20210820 10:48:28:081][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3876771][20210820 10:49:07:283][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3897759][20210820 10:49:28:271][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3909180][20210820 10:49:39:692][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3957720][20210820 10:50:28:232][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   3996772][20210820 10:51:07:284][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   4002510][20210820 10:51:13:022][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   4017799][20210820 10:51:28:312][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   4024580][20210820 10:51:35:093][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4052095][20210820 10:52:02:608][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   4084933][20210820 10:52:35:446][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4088391][20210820 10:52:38:903][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   4107921][20210820 10:52:58:434][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4122226][20210820 10:53:12:739][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4129612][20210820 10:53:20:124][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   4141331][20210820 10:53:31:844][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4159136][20210820 10:53:49:649][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4167721][20210820 10:53:58:234][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4196302][20210820 10:54:26:814][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   4233035][20210820 10:55:03:548][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4242091][20210820 10:55:12:604][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4270953][20210820 10:55:41:466][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4290011][20210820 10:56:00:524][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4305376][20210820 10:56:15:889][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   4339136][20210820 10:56:49:649][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4363263][20210820 10:57:13:775][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4375951][20210820 10:57:26:463][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   4413817][20210820 10:58:04:329][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4430013][20210820 10:58:20:526][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4452711][20210820 10:58:43:223][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   4487419][20210820 10:59:17:932][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4500194][20210820 10:59:30:706][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   4509876][20210820 10:59:40:389][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4523138][20210820 10:59:53:651][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4551076][20210820 11:00:21:589][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   4556776][20210820 11:00:27:289][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4564216][20210820 11:00:34:729][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4573604][20210820 11:00:44:116][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4605047][20210820 11:01:15:560][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   4641494][20210820 11:01:52:007][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4663665][20210820 11:02:14:178][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4677955][20210820 11:02:28:468][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4678685][20210820 11:02:29:198][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4717045][20210820 11:03:07:558][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4726915][20210820 11:03:17:428][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4755055][20210820 11:03:45:568][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4785596][20210820 11:04:16:109][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4794172][20210820 11:04:24:685][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   4827799][20210820 11:04:58:311][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4863997][20210820 11:05:34:510][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4870031][20210820 11:05:40:543][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   4908364][20210820 11:06:18:877][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4908737][20210820 11:06:19:249][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   4912108][20210820 11:06:22:620][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   4918197][20210820 11:06:28:710][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   4934297][20210820 11:06:44:810][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4946076][20210820 11:06:56:588][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   4966217][20210820 11:07:16:730][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   4983446][20210820 11:07:33:959][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   5021879][20210820 11:08:12:392][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5027397][20210820 11:08:17:910][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   5042238][20210820 11:08:32:751][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5057829][20210820 11:08:48:341][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5084738][20210820 11:09:15:251][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   5088039][20210820 11:09:18:551][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5091143][20210820 11:09:21:655][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5094518][20210820 11:09:25:031][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   5114269][20210820 11:09:44:781][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   5123522][20210820 11:09:54:035][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5130387][20210820 11:10:00:899][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5131589][20210820 11:10:02:101][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5162891][20210820 11:10:33:404][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5166139][20210820 11:10:36:651][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5196021][20210820 11:11:06:534][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   5231503][20210820 11:11:42:015][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5261140][20210820 11:12:11:652][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5267204][20210820 11:12:17:717][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5281460][20210820 11:12:31:973][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   5302500][20210820 11:12:53:013][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5304006][20210820 11:12:54:518][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5334720][20210820 11:13:25:233][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5338314][20210820 11:13:28:827][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   5371621][20210820 11:14:02:134][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   5401328][20210820 11:14:31:841][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   5432973][20210820 11:15:03:486][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5436784][20210820 11:15:07:296][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   5459732][20210820 11:15:30:245][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5462570][20210820 11:15:33:083][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5465972][20210820 11:15:36:484][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5509404][20210820 11:16:19:917][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   5538851][20210820 11:16:49:363][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   5569554][20210820 11:17:20:066][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5586423][20210820 11:17:36:936][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5604416][20210820 11:17:54:929][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5622823][20210820 11:18:13:335][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5639177][20210820 11:18:29:690][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5654993][20210820 11:18:45:506][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5669665][20210820 11:19:00:178][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5696694][20210820 11:19:27:206][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5701446][20210820 11:19:31:959][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5717544][20210820 11:19:48:057][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5731364][20210820 11:20:01:877][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5752944][20210820 11:20:23:457][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5760099][20210820 11:20:30:612][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   5790828][20210820 11:21:01:341][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5797624][20210820 11:21:08:137][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5819095][20210820 11:21:29:607][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5905935][20210820 11:22:56:448][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5909038][20210820 11:22:59:551][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   5936647][20210820 11:23:27:160][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   5964707][20210820 11:23:55:220][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   5973169][20210820 11:24:03:682][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   5992979][20210820 11:24:23:491][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6006789][20210820 11:24:37:301][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   6015391][20210820 11:24:45:904][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6022249][20210820 11:24:52:762][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6028136][20210820 11:24:58:649][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   6036789][20210820 11:25:07:301][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6050945][20210820 11:25:21:457][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6063257][20210820 11:25:33:769][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6078367][20210820 11:25:48:879][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6085589][20210820 11:25:56:102][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   6088867][20210820 11:25:59:380][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   6096789][20210820 11:26:07:302][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   6103298][20210820 11:26:13:810][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6105384][20210820 11:26:15:897][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6120617][20210820 11:26:31:130][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   6126880][20210820 11:26:37:392][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6131808][20210820 11:26:42:320][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6157890][20210820 11:27:08:403][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6159427][20210820 11:27:09:939][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   6189046][20210820 11:27:39:559][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6203891][20210820 11:27:54:403][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   6215598][20210820 11:28:06:111][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6216348][20210820 11:28:06:860][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6239588][20210820 11:28:30:101][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6243958][20210820 11:28:34:471][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   6271662][20210820 11:29:02:174][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6273468][20210820 11:29:03:981][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   6278091][20210820 11:29:08:604][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6298963][20210820 11:29:29:476][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   6326453][20210820 11:29:56:965][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   6361050][20210820 11:30:31:563][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   6392785][20210820 11:31:03:298][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6403600][20210820 11:31:14:113][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6422574][20210820 11:31:33:086][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6443640][20210820 11:31:54:153][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6449872][20210820 11:32:00:385][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   6478058][20210820 11:32:28:571][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6500110][20210820 11:32:50:623][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6505314][20210820 11:32:55:826][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   6532067][20210820 11:33:22:579][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6543740][20210820 11:33:34:253][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   6551794][20210820 11:33:42:306][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6560043][20210820 11:33:50:555][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6576795][20210820 11:34:07:308][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6587988][20210820 11:34:18:500][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6606794][20210820 11:34:37:307][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6616366][20210820 11:34:46:878][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6632531][20210820 11:35:03:044][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6646543][20210820 11:35:17:037][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   6672053][20210820 11:35:42:566][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6684212][20210820 11:35:54:724][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   6696795][20210820 11:36:07:308][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6699798][20210820 11:36:10:310][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   6728738][20210820 11:36:39:251][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6753953][20210820 11:37:04:465][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6755177][20210820 11:37:05:689][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   6783146][20210820 11:37:33:659][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6799652][20210820 11:37:50:165][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6809612][20210820 11:38:00:125][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   6839496][20210820 11:38:30:009][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6844033][20210820 11:38:34:545][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6867455][20210820 11:38:57:968][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6884926][20210820 11:39:15:439][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6896314][20210820 11:39:26:827][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   6924816][20210820 11:39:55:329][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   6942824][20210820 11:40:13:336][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   6955079][20210820 11:40:25:591][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   6984354][20210820 11:40:54:866][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   7007475][20210820 11:41:17:987][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   7013832][20210820 11:41:24:344][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   7039744][20210820 11:41:50:257][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   7042043][20210820 11:41:52:556][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   7056797][20210820 11:42:07:310][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7068706][20210820 11:42:19:218][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   7070734][20210820 11:42:21:247][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   7119027][20210820 11:43:09:539][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   7126798][20210820 11:43:17:310][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   7149244][20210820 11:43:39:757][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   7180153][20210820 11:44:10:665][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   7196467][20210820 11:44:26:980][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7196799][20210820 11:44:27:311][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   7208069][20210820 11:44:38:582][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   7219526][20210820 11:44:50:039][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7236799][20210820 11:45:07:312][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   7237038][20210820 11:45:07:550][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   7267130][20210820 11:45:37:643][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+Trace>> [   7294945][20210820 11:46:05:458][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   7311837][20210820 11:46:22:349][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7323387][20210820 11:46:33:900][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   7324197][20210820 11:46:34:710][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   7359258][20210820 11:47:09:771][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7368778][20210820 11:47:19:290][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7416800][20210820 11:48:07:313][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7450190][20210820 11:48:40:703][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7473258][20210820 11:49:03:771][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7476798][20210820 11:49:07:311][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7517860][20210820 11:49:48:373][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7600239][20210820 11:51:10:752][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7625559][20210820 11:51:36:072][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7653960][20210820 11:52:04:473][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   7679287][20210820 11:52:29:799][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   7680921][20210820 11:52:31:434][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7714911][20210820 11:53:05:423][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7736151][20210820 11:53:26:664][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7758261][20210820 11:53:48:773][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7763370][20210820 11:53:53:883][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7773610][20210820 11:54:04:123][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7811714][20210820 11:54:42:227][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7836821][20210820 11:55:07:334][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7852633][20210820 11:55:23:146][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7862052][20210820 11:55:32:565][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7871532][20210820 11:55:42:045][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7903172][20210820 11:56:13:685][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   7936823][20210820 11:56:47:336][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8025234][20210820 11:58:15:747][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8076824][20210820 11:59:07:336][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8117335][20210820 11:59:47:848][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8145354][20210820 12:00:15:867][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8186265][20210820 12:00:56:777][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8190014][20210820 12:01:00:527][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8227676][20210820 12:01:38:188][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8262718][20210820 12:02:13:231][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8291096][20210820 12:02:41:609][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8295507][20210820 12:02:46:019][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8325539][20210820 12:03:16:051][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8338497][20210820 12:03:29:009][  1745][parseMsg@428]Message received result is 1, connection state is 2
+Trace>> [   8472354][20210820 12:05:42:867][  1765][openFile@143]BUFSIZ is 8192, but optimal block size is 1024
+ Warn>> [   8496839][20210820 12:06:07:351][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8527578][20210820 12:06:38:090][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8553927][20210820 12:07:04:440][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8568950][20210820 12:07:19:462][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8572199][20210820 12:07:22:712][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8575409][20210820 12:07:25:922][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ Warn>> [   8576859][20210820 12:07:27:372][  1745][parseMsg@428]Message received result is 1, connection state is 2
+ War

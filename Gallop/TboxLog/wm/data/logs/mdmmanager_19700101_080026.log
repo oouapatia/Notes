@@ -1,0 +1,83 @@
+
+Debug>> [     23559][19700101 08:00:26:573][  1600][main@101]Version information: mdmmanager v3.2.7 2020/12/16
+Trace>> [     24127][19700101 08:00:27:141][  1600][sms_init@168]SMS Client Init:0, 0x1
+Trace>> [     24132][19700101 08:00:27:145][  1600][sms_init@171]SMS MsgHandler:0
+Trace>> [     24133][19700101 08:00:27:146][  1600][voice_init@181]Call Client Init:0, 1
+Trace>> [     24134][19700101 08:00:27:147][  1600][voice_init@184]Call Handler:0
+Trace>> [     24134][19700101 08:00:27:147][  1600][lpm_init@272]wakeup-in pin 61, wakeup-out pin 170
+Trace>> [     25245][19700101 08:00:28:259][  1600][init@121]Start IPC receiving successful
+Trace>> [     25245][19700101 08:00:28:259][  1600][phy_enable@399]phy_enable  in, thread id:0xb676b000
+Trace>> [     25245][19700101 08:00:28:259][  1600][phy_enable@401]phy_enable  get lock, thread id:0xb676b000
+Trace>> [     25245][19700101 08:00:28:259][  1600][doShellCmd@28]doShellCmd,/wm/app/bin/eth0_config.sh start
+Trace>> [     26643][19700101 08:00:29:656][  1600][p
+Debug>> [     30117][19700101 08:54:24:130][  1623][main@101]Version information: mdmmanager v3.2.7 2020/12/16
+Trace>> [     30686][19700101 08:54:24:699][  1623][sms_init@168]SMS Client Init:0, 0x1
+Trace>> [     30691][19700101 08:54:24:704][  1623][sms_init@171]SMS MsgHandler:0
+Trace>> [     30692][19700101 08:54:24:705][  1623][voice_init@181]Call Client Init:0, 1
+Trace>> [     30693][19700101 08:54:24:706][  1623][voice_init@184]Call Handler:0
+Trace>> [     30693][19700101 08:54:24:706][  1623][lpm_init@272]wakeup-in pin 61, wakeup-out pin 170
+Trace>> [     31804][19700101 08:54:25:817][  1623][init@121]Start IPC receiving successful
+Trace>> [     31804][19700101 08:54:25:817][  1623][phy_enable@399]phy_enable  in, thread id:0xb677e000
+Trace>> [     31804][19700101 08:54:25:817][  1623][phy_enable@401]phy_enable  get lock, thread id:0xb677e000
+Trace>> [     31804][19700101 08:54:25:817][  1623][doShellCmd@28]doShellCmd,/wm/app/bin/eth0_config.sh start
+Trace>> [     33181][19700101 08:54:27:194][  1623][p
+Debug>> [     23284][19700101 08:00:26:296][  1599][main@101]Version information: mdmmanager v3.2.7 2020/12/16
+Trace>> [     23853][19700101 08:00:26:866][  1599][sms_init@168]SMS Client Init:0, 0x1
+Trace>> [     23859][19700101 08:00:26:872][  1599][sms_init@171]SMS MsgHandler:0
+Trace>> [     23860][19700101 08:00:26:873][  1599][voice_init@181]Call Client Init:0, 1
+Trace>> [     23861][19700101 08:00:26:874][  1599][voice_init@184]Call Handler:0
+Trace>> [     23861][19700101 08:00:26:874][  1599][lpm_init@272]wakeup-in pin 61, wakeup-out pin 170
+Trace>> [     24981][19700101 08:00:27:994][  1599][init@121]Start IPC receiving successful
+Trace>> [     24981][19700101 08:00:27:994][  1599][phy_enable@399]phy_enable  in, thread id:0xb671e000
+Trace>> [     24981][19700101 08:00:27:994][  1599][phy_enable@401]phy_enable  get lock, thread id:0xb671e000
+Trace>> [     24981][19700101 08:00:27:994][  1599][doShellCmd@28]doShellCmd,/wm/app/bin/eth0_config.sh start
+Trace>> [     26362][19700101 08:00:29:375][  1599][p
+Debug>> [     23034][19700101 08:08:15:046][  1615][main@101]Version information: mdmmanager v3.2.7 2020/12/16
+Trace>> [     23597][19700101 08:08:15:610][  1615][sms_init@168]SMS Client Init:0, 0x1
+Trace>> [     23602][19700101 08:08:15:615][  1615][sms_init@171]SMS MsgHandler:0
+Trace>> [     23603][19700101 08:08:15:616][  1615][voice_init@181]Call Client Init:0, 1
+Trace>> [     23604][19700101 08:08:15:617][  1615][voice_init@184]Call Handler:0
+Trace>> [     23604][19700101 08:08:15:617][  1615][lpm_init@272]wakeup-in pin 61, wakeup-out pin 170
+Trace>> [     24724][19700101 08:08:16:737][  1615][init@121]Start IPC receiving successful
+Trace>> [     24724][19700101 08:08:16:737][  1615][phy_enable@399]phy_enable  in, thread id:0xb67dc000
+Trace>> [     24724][19700101 08:08:16:737][  1615][phy_enable@401]phy_enable  get lock, thread id:0xb67dc000
+Trace>> [     24724][19700101 08:08:16:737][  1615][doShellCmd@28]doShellCmd,/wm/app/bin/eth0_config.sh start
+Trace>> [     25745][19700101 08:08:17:758][  1638][ql_lpm_handler@26]receive pin falling
+Trace>> [     25745][19700101 08:08:17:758][  1638][phy_enable@399]phy_enable  in, thread id:0xb3bfdbf0
+Trace>> [     26094][19700101 08:08:18:107][  1615][phy_enable@437]phy_enable  out, thread id:0xb67dc000
+Trace>> [     26095][19700101 08:08:18:108][  1638][phy_enable@401]phy_enable  get lock, thread id:0xb3bfdbf0
+Trace>> [     26095][19700101 08:08:18:108][  1638][doShellCmd@28]doShellCmd,/wm/app/bin/eth0_config.sh stop
+Trace>> [     26291][19700101 08:08:18:304][  1638][phy_enable@437]phy_enable  out, thread id:0xb3bfdbf0
+Trace>> [     26291][19700101 08:08:18:304][  1638][suspendCfm@239]Linux suspend now
+Trace>> [     26295][19700101 08:08:18:308][  1638][ql_lpm_handler@22]receive pin rising
+Trace>> [     26295][19700101 08:08:18:308][  1638][wakeup@180]Send wakeup notify to basic service successful, wakeup source is 3
+Trace>> [     26296][19700101 08:08:18:309][  1638][phy_enable@399]phy_enable  in, thread id:0xb3bfdbf0
+Trace>> [     26296][19700101 08:08:18:309][  1638][phy_enable@401]phy_enable  get lock, thread id:0xb3bfdbf0
+Trace>> [     26296][19700101 08:08:18:309][  1638][doShellCmd@28]doShellCmd,/wm/app/bin/eth0_config.sh start
+Trace>> [     27825][19700101 08:08:19:838][  1638][phy_enable@437]phy_enable  out, thread id:0xb3bfdbf0
+Trace>> [     27825][19700101 08:08:19:838][  1638][wakeup@191]Linux Wakeup, set wakeup_out pin output high level to notify mcu that I`m awakened
+Trace>> [   3556575][20210819 17:46:41:234][  1638][ql_lpm_handler@26]receive pin falling
+Trace>> [   3556575][20210819 17:46:41:234][  1638][phy_enable@399]phy_enable  in, thread id:0xb3bfdbf0
+Trace>> [   3556575][20210819 17:46:41:234][  1638][phy_enable@401]phy_enable  get lock, thread id:0xb3bfdbf0
+Trace>> [   3556575][20210819 17:46:41:234][  1638][doShellCmd@28]doShellCmd,/wm/app/bin/eth0_config.sh stop
+Trace>> [   3556742][20210819 17:46:41:401][  1638][phy_enable@437]phy_enable  out, thread id:0xb3bfdbf0
+Trace>> [   3556742][20210819 17:46:41:401][  1638][suspendCfm@239]Linux suspend now
+Trace>> [   3560087][20210820 10:43:50:599][  1638][ql_lpm_handler@22]receive pin rising
+Trace>> [   3560095][20210820 10:43:50:607][  1638][wakeup@180]Send wakeup notify to basic service successful, wakeup source is 3
+Trace>> [   3560096][20210820 10:43:50:608][  1638][phy_enable@399]phy_enable  in, thread id:0xb3bfdbf0
+Trace>> [   3560096][20210820 10:43:50:608][  1638][phy_enable@401]phy_enable  get lock, thread id:0xb3bfdbf0
+Trace>> [   3560096][20210820 10:43:50:608][  1638][doShellCmd@28]doShellCmd,/wm/app/bin/eth0_config.sh start
+Trace>> [   3561405][20210820 10:43:51:918][  1638][phy_enable@437]phy_enable  out, thread id:0xb3bfdbf0
+Trace>> [   3561405][20210820 10:43:51:918][  1638][wakeup@191]Linux Wakeup, set wakeup_out pin output high level to notify mcu that I`m awakened
+Trace>> [   3561405][20210820 10:43:51:918][  1638][ql_lpm_handler@26]receive pin falling
+Trace>> [   3561405][20210820 10:43:51:918][  1638][phy_enable@399]phy_enable  in, thread id:0xb3bfdbf0
+Trace>> [   3561406][20210820 10:43:51:918][  1638][phy_enable@401]phy_enable  get lock, thread id:0xb3bfdbf0
+Trace>> [   3561406][20210820 10:43:51:918][  1638][doShellCmd@28]doShellCmd,/wm/app/bin/eth0_config.sh stop
+Trace>> [   3561622][20210820 10:43:52:135][  1638][phy_enable@437]phy_enable  out, thread id:0xb3bfdbf0
+Trace>> [   3561623][20210820 10:43:52:135][  1638][suspendCfm@239]Linux suspend now
+Trace>> [   3561624][20210820 10:43:52:137][  1638][ql_lpm_handler@22]receive pin rising
+Trace>> [   3561625][20210820 10:43:52:138][  1638][wakeup@180]Send wakeup notify to basic service successful, wakeup source is 3
+Trace>> [   3561626][20210820 10:43:52:138][  1638][phy_enable@399]phy_enable  in, thread id:0xb3bfdbf0
+Trace>> [   3561626][20210820 10:43:52:138][  1638][phy_enable@401]phy_enable  get lock, thread id:0xb3bfdbf0
+Trace>> [   3561626][20210820 10:43:52:138][  1638][doShellCmd@28]doShellCmd,/wm/app/bin/eth0_config.sh start
+Trace>> [   3563026][20210820 10:43:53:538][  1638][phy_enable@437]phy_enable  out, thread id:0xb3bfdbf0
