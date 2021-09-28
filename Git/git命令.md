@@ -52,8 +52,9 @@
 
   - `git pull`失败，原因是没有指定本地分支与远程分支的链接
 
-    建立本地分支和远程分支的关联
-    `git branch --set-upstream branch-name origin/branch-name`
+- **建立本地分支和远程分支的关联**
+
+  `git branch --set-upstream-to=origin/<远程分支> <本地分支>`
 
 #### 4、添加暂存库
 
