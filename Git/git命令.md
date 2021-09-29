@@ -1,6 +1,6 @@
 [toc]
 
-### git常用命令
+### 一、git常用命令
 
 #### 1、初始化分支
 
@@ -27,6 +27,10 @@
 
   - `git branch dev`创建分支
     `git checkout dev`切换分支
+
+- **重命名分支**
+
+  `git branch -m <oldName> <newName>`
 
 - **查看分支**
 
@@ -245,3 +249,41 @@
 - 删除tag
 
   `git tag -d <tag name>`
+
+#### 15、同步代码
+
+### 二、git技巧
+
+#### 1、提交当前工作区内容至指定的Commit-id
+
+1. 保存当前工作区内容
+
+   `git stash`
+
+2. 修改commit内容，将HEAD指针指向需要更改的commit上
+
+   `git rebase <commit_id>^ --interactive`
+
+   找到需要更改的`commit`，将行首的`pick`改为`edit`
+
+3. 取出`stash`中的工作
+
+   `git stash pop`
+
+4. 添加到暂存库
+
+   `git add <filename>`
+
+4. 追加到指定的`commit`中
+
+   `git commit --amed`
+
+5. 移动HEAD指针到最新的`commit`处
+
+   `git rebase --continue`
+
+   若有冲突：
+
+   - 解决冲突后add，在追加
+   - 再将HEAD指针移动至最新的commit处
+
