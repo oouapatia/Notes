@@ -1,20 +1,40 @@
 [toc]
 
-### git常用命令
+### 一、git常用命令
 
 #### 1、初始化分支
 
 - `git init`
   - 在初始化分支后，需要提交内容后才能创建分支，否则会出现`fatal: 不是一个有效的对象名：'master'`错误
 
-#### 2、查看log
+#### 2、添加远程仓库
+
+- 添加远程库
+
+  `git remote add origin git@github.com:xxx/xxx.git`
+
+  - 使用`token`
+
+    `git remote add origin https://<token>@github.com/xxx/xxx.git `
+
+  `origin`为取的名字
+
+- 清除远程库
+
+  `git remote rm origin`
+
+#### 3、克隆远程库
+
+`git clone git@github.com:xxx/xxx.git`
+
+#### 4、查看log
 
 - `git log`：查看commit id
 
 - `git reflog`：查看所有提交过的commit id，包括删除过的
 
 
-#### 3、分支
+#### 5、分支操作
 
 `git branch`
 
@@ -27,6 +47,10 @@
 
   - `git branch dev`创建分支
     `git checkout dev`切换分支
+
+- **重命名分支**
+
+  `git branch -m <oldName> <newName>`
 
 - **查看分支**
 
@@ -56,7 +80,7 @@
 
   `git branch --set-upstream-to=origin/<远程分支> <本地分支>`
 
-#### 4、添加暂存库
+#### 6、添加暂存库
 
 `git add`
 
@@ -68,7 +92,7 @@
 
 - `git add .`  提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
 
-#### 5、提交到本地仓库
+#### 7、提交到本地仓库
 
 `git commit`
 
@@ -77,26 +101,6 @@
   - 不使用`-m`参数，会打开vim，在vim中编辑备注
 - `git commit --amend` 
   - 将多次提交合并为一次，追加此次提交到上一次提交的`commit id`中，而不会增加新的`commit id`
-
-#### 6、添加远程仓库
-
-- 添加远程库
-
-  `git remote add origin git@github.com:xxx/xxx.git`
-
-  - 使用`token`
-
-    `git remote add origin https://<token>@github.com/xxx/xxx.git `
-
-  `origin`为取的名字
-
-- 清除远程库
-
-  `git remote rm origin`
-
-#### 7、克隆远程库
-
-`git clone git@github.com:xxx/xxx.git`
 
 #### 8、提交到远程仓库
 
@@ -146,7 +150,7 @@
 
   `git clean -df`
 
-#### 11、查看不同
+#### 11、查看文件差异
 
 - 查看修改后与原文件的不同
 
@@ -245,3 +249,39 @@
 - 删除tag
 
   `git tag -d <tag name>`
+
+### 二、git技巧
+
+#### 1、提交当前工作区内容至指定的Commit-id
+
+1. 保存当前工作区内容
+
+   `git stash`
+
+2. 修改commit内容，将HEAD指针指向需要更改的commit上
+
+   `git rebase <commit_id>^ --interactive`
+
+   找到需要更改的`commit`，将行首的`pick`改为`edit`
+
+3. 取出`stash`中的工作
+
+   `git stash pop`
+
+4. 添加到暂存库
+
+   `git add <filename>`
+
+4. 追加到指定的`commit`中
+
+   `git commit --amed`
+
+5. 移动HEAD指针到最新的`commit`处
+
+   `git rebase --continue`
+
+   若有冲突：
+
+   - 解决冲突后add，在追加
+   - 再将HEAD指针移动至最新的commit处
+
