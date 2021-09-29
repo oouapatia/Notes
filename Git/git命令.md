@@ -28,6 +28,10 @@
   - `git branch dev`创建分支
     `git checkout dev`切换分支
 
+- **重命名分支**
+
+  `git branch -m <oldName> <newName>`
+
 - **查看分支**
 
   `git branch -l`
@@ -245,3 +249,6 @@
 - 删除tag
 
   `git tag -d <tag name>`
+
+#### 15、同步代码
+
