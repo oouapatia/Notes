@@ -69,7 +69,7 @@
 - **删除分支**
 
   `git branch -d <name>`
-  
+
 - **抓取分支**
 
   `git pull`
@@ -96,10 +96,10 @@
 
 `git commit`
 
-- `git commit -m "message"` 
+- `git commit -m "message"`
   - 使用`-m` 参数，可以直接在引号中输入备注
   - 不使用`-m`参数，会打开vim，在vim中编辑备注
-- `git commit --amend` 
+- `git commit --amend`
   - 将多次提交合并为一次，追加此次提交到上一次提交的`commit id`中，而不会增加新的`commit id`
 
 #### 8、提交到远程仓库
@@ -135,7 +135,7 @@
   - 将commit id修改的内容同步本地，==不包含提交==，只同步修改
 
   `git reset --hard HEAD~n`或`git reset <commit id>`
-  
+
   - 将commit id修改的内容同步本地，==包含提交==
 
 #### 10、移除
@@ -171,9 +171,9 @@
 - 图像化查看不同
 
   `git difftool`
-  
+
   - `difftool`需要配置
-  
+
 - 本地分支与远程分支比较
 
   - 显示远程分支与本地分支差异
@@ -213,7 +213,7 @@
   `git checkout <filename>`
 
   `git checkout .`
-  
+
 - 撤销添加到暂存区的文件
 
   使用`git reset HEAD <filename>`命令
