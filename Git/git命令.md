@@ -286,4 +286,3 @@
 
    - 解决冲突后add，在追加
    - 再`git rebase`将HEAD指针移动至最新的commit处
-
