@@ -254,6 +254,8 @@
 
 #### 1、提交当前工作区内容至指定的Commit-id
 
+> 在typora中需要重新打开才能看见提交的内容
+
 1. 保存当前工作区内容
 
    `git stash`
@@ -268,20 +270,20 @@
 
    `git stash pop`
 
-4. 添加到暂存库
+4. 添加至暂存库
 
    `git add <filename>`
 
-4. 追加到指定的`commit`中
+5. 追加到指定的`commit`中
 
    `git commit --amed`
 
-5. 移动HEAD指针到最新的`commit`处
+6. 移动HEAD指针到最新的`commit`处
 
    `git rebase --continue`
 
    若有冲突：
 
    - 解决冲突后add，在追加
-   - 再将HEAD指针移动至最新的commit处
+   - 再`git rebase`将HEAD指针移动至最新的commit处
 
