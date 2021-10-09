@@ -2,12 +2,11 @@
 
 ### 一、git常用命令
 
-#### 1、初始化分支
+#### 1、初始化分支(`git init`)
 
-- `git init`
-  - 在初始化分支后，需要提交内容后才能创建分支，否则会出现`fatal: 不是一个有效的对象名：'master'`错误
+- 在初始化分支后，需要提交内容后才能创建分支，否则会出现`fatal: 不是一个有效的对象名：'master'`错误
 
-#### 2、添加远程仓库
+#### 2、添加远程仓库(`git remote`)
 
 - 添加远程库
 
@@ -23,20 +22,18 @@
 
   `git remote rm origin`
 
-#### 3、克隆远程库
+#### 3、克隆远程库(`git clone`)
 
 `git clone git@github.com:xxx/xxx.git`
 
-#### 4、查看log
+#### 4、查看log(`git log`)
 
 - `git log`：查看commit id
 
 - `git reflog`：查看所有提交过的commit id，包括删除过的
 
 
-#### 5、分支操作
-
-`git branch`
+#### 5、分支操作(`git branch`)
 
 
  提交代码前最好创建本地分支
@@ -80,9 +77,7 @@
 
   `git branch --set-upstream-to=origin/<远程分支> <本地分支>`
 
-#### 6、添加暂存库
-
-`git add`
+#### 6、添加暂存库(`git add`)
 
 - `git add` 把修改的文件提交到暂存区
 
@@ -92,9 +87,7 @@
 
 - `git add .`  提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
 
-#### 7、提交到本地仓库
-
-`git commit`
+#### 7、提交到本地仓库(`git commit`)
 
 - `git commit -m "message"`
   - 使用`-m` 参数，可以直接在引号中输入备注
@@ -102,7 +95,7 @@
 - `git commit --amend`
   - 将多次提交合并为一次，追加此次提交到上一次提交的`commit id`中，而不会增加新的`commit id`
 
-#### 8、提交到远程仓库
+#### 8、提交到远程仓库(`git push`)
 
 提交到远程分支
 
@@ -116,9 +109,7 @@
   - `<分支名>`: 需要push到远程的分支名
   - `refs/for`：代表需要经过`gerrit`上进行`review`，而不是直接提交到仓库中
 
-#### 9、回退版本
-
-`git reset`
+#### 9、回退版本(`git reset`)
 
 - 取消在暂存区中的某个文件
 
@@ -138,9 +129,7 @@
 
   - 将commit id修改的内容同步本地，==包含提交==
 
-#### 10、移除
-
-`git clean`
+#### 10、移除(`git clean`)
 
 - 移除工作区的某个文件
 
@@ -150,7 +139,41 @@
 
   `git clean -df`
 
-#### 11、查看文件差异
+#### 11、撤销(`git checkout`)
+
+- 撤销工作区（还未添加至暂存区）某个文件的修改
+
+  `git checkout <filename>`
+
+  `git checkout .`
+
+- 撤销添加到暂存区的文件
+
+  使用`git reset HEAD <filename>`命令
+
+- 以及添加至本地仓库
+
+  进行版本回退`git reset HEAD~1`或`git reset <commit id>`
+
+#### 12、删除(`git rm`)
+
+- 将文件从暂存区和工作区删除
+
+  `git rm <filename>`
+
+- 强行从暂存区和工作区中删除修改后的文件
+
+  `git rm -f <filename>`
+
+- 将文件从暂存区删除，但保留在工作区中（仅从跟踪清单中删除）
+
+  `git rm --cached <filename>`
+
+- 递归删除
+
+  `git rm -r <directory>`
+
+#### 13、查看文件差异(`git diff`)
 
 - 查看修改后与原文件的不同
 
@@ -184,7 +207,7 @@
 
     `git diff --name-status <remote-name> <local-name>`
 
-#### 12、stash
+#### 14、stash(`git stash`)
 
 - 将工作区的修改临时保存在暂存区
 
@@ -206,23 +229,7 @@
 
   `git stash clear`
 
-#### 13、撤销
-
-- 撤销工作区（还未添加至暂存区）某个文件的修改
-
-  `git checkout <filename>`
-
-  `git checkout .`
-
-- 撤销添加到暂存区的文件
-
-  使用`git reset HEAD <filename>`命令
-
-- 以及添加至本地仓库
-
-  进行版本回退`git reset HEAD~1`或`git reset <commit id>`
-
-#### 14、tag
+#### 15、tag(`git tag`)
 
 - 创建标签
 
@@ -286,3 +293,9 @@
 
    - 解决冲突后add，在追加
    - 再`git rebase`将HEAD指针移动至最新的commit处
+
+#### 2、git在命令行中正确显示中文文件名
+
+在命令行输入`git config --global core.quotepath off`
+
+> 将core.quotepath设为false，不会对0x80以上的字符进行quote
