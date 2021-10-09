@@ -286,3 +286,9 @@
 
    - 解决冲突后add，在追加
    - 再`git rebase`将HEAD指针移动至最新的commit处
+
+#### 2、git在命令行中正确显示中文文件名
+
+在命令行输入`git config --global core.quotepath off`
+
+> 将core.quotepath设为false，不会对0x80以上的字符进行quote
