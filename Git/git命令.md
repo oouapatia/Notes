@@ -75,6 +75,20 @@
 
 - `git pull origin <远程分支名>:<本地分支名>`
   - 拉取origin的远程分支与本地分支合并
+  
+- ==本地未修改==，只有master分支，直接更新
+
+  - `git pull`
+    - 若修改后直接pull，会产生冲突
+
+- 本地分支有修改，多分支
+
+  - ```
+    git checkout <主分支>
+    git pull
+    git checkout <子分支>
+    git merger <主分支>
+    ```
 
 #### 7、添加暂存库（`git add`）
 - `git add` 把修改的文件提交到暂存区
