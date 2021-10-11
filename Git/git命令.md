@@ -57,7 +57,17 @@
 
 - **合并分支**
 
-  `git merge <name>`
+  - `git merge <name>`
+
+    > 直接把两个分支再各自拉出一条线，然后连在一起
+    >
+    > 最后会有两次提交，有分叉，会产生`Merge branch xxx of xxx`提交
+
+  - `git rebase`
+
+    > 将当前分支与要合并的分支中不同的commits取消掉，临时保存起来，然后在要合并的分支中再把保存起来的commits patch上去，变成新的commits
+    >
+    > 最后就只剩合并后的分支，是一条直线，没有分叉，不会有`Merge branch xxx of xxx`提交
 
 - **删除分支**
 
@@ -67,7 +77,15 @@
 
   `git branch --set-upstream-to=origin/<远程分支> <本地分支>`
 
-#### 6、拉取分支（`git pull`）
+#### 6、拉取代码（`fetch&pull`）
+
+- `git fetch`：将远程commit拉取到本地
+
+  > `fetch`不会直接将拉取的commit接到本地分支的最后，而是在本地最后一次==push的commit处==再拉取一个新的分支
+
+- `git pull`（相当于以下两条命令）：拉取并合并分支
+  - `git fetch`
+  - `git merge`
 
 > 用于从远程获取代码并合并本地的版本
 
@@ -304,8 +322,8 @@
 
    若有冲突：
 
-   - 解决冲突后add，在追加
-   - 再`git rebase`将HEAD指针移动至最新的commit处
+   - 解决冲突后add，再追加
+   - 再用`git rebase --continue`将HEAD指针移动至最新的commit处
 
 #### 2、git在命令行中正确显示中文文件名
 
@@ -326,3 +344,18 @@
 [关于`github`中的token的创建方法](https://www.pianshen.com/article/9592754254/)
 
 > `github`用户setting ->Developer settings-->Personal access tokens-->Generate token
+
+#### 3、拉取远程代码，但本地代码有修改
+
+1. `git fetch`
+
+2. `git rebase`
+
+3. `git rebase --continue`
+
+   若有冲突：
+
+   - 解决冲突后add
+   - 再用`git rebase --continue`将HEAD指针移动至最新的commit处
+
+4. `git push`
