@@ -299,4 +299,19 @@
 
 在命令行输入`git config --global core.quotepath off`
 
-> 将core.quotepath设为false，不会对0x80以上的字符进行quote
+> 将`core.quotepath`设为false，不会对`0x80`以上的字符进行quote
+
+#### 3、`github`怎么邀请合作者加入到自己的项目
+
+[`github`怎么邀请合作者加入到自己的项目](https://jingyan.baidu.com/article/948f5924f43f47d80ff5f9f9.html)
+
+> 登录`github`->选择项目->setting->Manage access->通过邮件、用户名等添加用户
+>
+> 被邀请人在`github`账号头像处查看邀请信息
+
+#### 4、`github`添加token
+
+[关于`github`中的token的创建方法](https://www.pianshen.com/article/9592754254/)
+
+> `github`用户setting ->Developer settings-->Personal access tokens-->Generate token
+
