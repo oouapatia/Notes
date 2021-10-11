@@ -132,12 +132,20 @@
 > origin 为添加远程仓库时所取名字
 
 - **提交到远程分支**
-  - 提交指定分支：`git push origin <分支名>`
-  - 提交所有分支：`git push -u origin`
+
+  - `git push origin <branch name>`：提交指定分支
+
+    - `git push -u origin <branch name>`：将分支提交到`origin`，同时指定`origin`为默认主机
+
+      `-u`：指定默认主机，后面提交时可以直接使用`git push`，不带`origin`与分支名
 
 - **提交到`Gerrit`中**
 
     `git push origin HEAD:refs/for/<分支名>`
+
+- **提交到`Gerrit`中**
+
+    `git push origin HEAD:refs/for/<branch name>`
 
     - `origin` : 代表远程仓库
     - `HEAD`：本地当前分支
