@@ -1,3 +1,6 @@
+> C++11抛弃了动态异常机制（dynamic exception specifications）
+
+
 > 异常是程序执行期间产生的问题
 >
 > 异常提供了一种转移程序控制权的方式
