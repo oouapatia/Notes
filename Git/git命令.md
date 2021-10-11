@@ -7,7 +7,7 @@
 - 在初始化分支后，需要提交内容后才能创建分支，否则会出现`fatal: 不是一个有效的对象名：'master'`错误
 
 #### 2、添加远程仓库（`git remote`）
-- 添加远程库
+- **添加远程库**
 
   `git remote add origin git@github.com:xxx/xxx.git`
 
@@ -17,7 +17,7 @@
 
   `origin`为取的名字
 
-- 清除远程库
+- **清除远程库**
 
   `git remote rm origin`
 
@@ -131,17 +131,20 @@
 
 > origin 为添加远程仓库时所取名字
 
-- 提交到远程分支
+- **提交到远程分支**
   - 提交指定分支：`git push origin <分支名>`
   - 提交所有分支：`git push -u origin`
 
-- 提交到`Gerrit`中
-  - `git push origin HEAD:refs/for/<分支名>`
+- **提交到`Gerrit`中**
+
+    `git push origin HEAD:refs/for/<分支名>`
+
     - `origin` : 代表远程仓库
     - `HEAD`：本地当前分支
     - `<分支名>`: 需要push到远程的分支名
     - `refs/for`：代表需要经过`gerrit`上进行`review`，而不是直接提交到仓库中
-- 强制提交，覆盖远程仓库代码
+
+- **强制提交**，覆盖远程仓库代码
   - `git push --force origin <分支名> `
 
 #### 10、回退版本（`git reset`）
@@ -155,13 +158,13 @@
 
 - 取消最近的n次提交或退至指定`commit id`
 
-  `git reset HEAD~n`或`git reset <commit id>`
+  `git reset HEAD~n` 或 `git reset <commit id>`
 
-  - 将commit id修改的内容同步本地，==不包含提交==，只同步修改
+  - 同步指定的commit id的内容到当前，==不包含提交==。（即回退到commit id版本，但修改**不会被`commit`**到本地仓库）
 
-  `git reset --hard HEAD~n`或`git reset <commit id>`
+  `git reset --hard HEAD~n` 或 `git reset <commit id>`
 
-  - 将commit id修改的内容同步本地，==包含提交==
+  - 同步指定的commit id的内容到当前，==包含提交==。（即回退到commit id版本，但修改**会被`commit`**到本地仓库）
 
 #### 11、移除（`git clean`）
 - 移除工作区的某个文件
