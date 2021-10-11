@@ -7,7 +7,6 @@
 - 在初始化分支后，需要提交内容后才能创建分支，否则会出现`fatal: 不是一个有效的对象名：'master'`错误
 
 #### 2、添加远程仓库（`git remote`）
-
 - 添加远程库
 
   `git remote add origin git@github.com:xxx/xxx.git`
@@ -27,14 +26,11 @@
 `git clone git@github.com:xxx/xxx.git`
 
 #### 4、查看log（`git log`）
-
 - `git log`：查看commit id
 
 - `git reflog`：查看所有提交过的commit id，包括删除过的
 
-
 #### 5、分支操作（`git branch`）
-
 
  提交代码前最好创建本地分支
 
@@ -73,8 +69,14 @@
 
 #### 6、拉取分支（`git pull`）
 
-#### 7、添加暂存库（`git add`）
+> 用于从远程获取代码并合并本地的版本
 
+`git pull`其实就是 `git fetch` 和 `git merge FETCH_HEAD`的简写
+
+- `git pull origin <远程分支名>:<本地分支名>`
+  - 拉取origin的远程分支与本地分支合并
+
+#### 7、添加暂存库（`git add`）
 - `git add` 把修改的文件提交到暂存区
 
 -  `git add -A`  提交所有变化
@@ -84,7 +86,6 @@
 - `git add .`  提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
 
 #### 8、提交到本地仓库（`git commit`）
-
 - `git commit -m "message"`
   - 使用`-m` 参数，可以直接在引号中输入备注
   - 不使用`-m`参数，会打开vim，在vim中编辑备注
@@ -94,6 +95,7 @@
   - 将多次提交合并为一次，追加此次提交到上一次提交的`commit id`中，而不会增加新的`commit id`
 
 #### 9、提交到远程仓库（`git push`）
+提交到远程分支
 
 > origin 为添加远程仓库时所取名字
 
@@ -111,7 +113,6 @@
   - `git push --force origin <分支名> `
 
 #### 10、回退版本（`git reset`）
-
 - 取消在暂存区中的某个文件
 
   `git reset HEAD <filename>`
@@ -131,7 +132,6 @@
   - 将commit id修改的内容同步本地，==包含提交==
 
 #### 11、移除（`git clean`）
-
 - 移除工作区的某个文件
 
   `git clean -f <filename>`
@@ -141,7 +141,6 @@
   `git clean -df`
 
 #### 12、撤销（`git checkout`）
-
 - 撤销工作区（还未添加至暂存区）某个文件的修改
 
   `git checkout <filename>`
@@ -157,7 +156,6 @@
   进行版本回退`git reset HEAD~1`或`git reset <commit id>`
 
 #### 13、删除（`git rm`）
-
 - 将文件从暂存区和工作区删除
 
   `git rm <filename>`
@@ -175,7 +173,6 @@
   `git rm -r <directory>`
 
 #### 14、查看文件差异（`git diff`）
-
 - 查看修改后与原文件的不同
 
   `git diff`
@@ -188,7 +185,7 @@
 
   - 显示的是下一次commit时会提交到HEAD的内容(不带-a情况下)
 
-- 查看简单的diff结果，可以加上--stat参数
+- 查看简单的`diff`结果，可以加上`--stat`参数
 
   `git diff --stat`
 
@@ -209,7 +206,6 @@
     `git diff --name-status <remote-name> <local-name>`
 
 #### 15、stash（`git stash`）
-
 - 将工作区的修改临时保存在暂存区
 
   `git stash`
@@ -231,7 +227,6 @@
   `git stash clear`
 
 #### 16、tag（`git tag`）
-
 - 创建标签
 
   `git tag <tag name>`
@@ -258,11 +253,11 @@
 
   `git tag -d <tag name>`
 
-### 二、git技巧
+### 二、git操作
 
 #### 1、提交当前工作区内容至指定的Commit-id
 
-> 在typora中需要重新打开才能看见提交的内容
+> 在`typora`中需要重新打开才能看见提交的内容
 
 1. 保存当前工作区内容
 
@@ -314,4 +309,3 @@
 [关于`github`中的token的创建方法](https://www.pianshen.com/article/9592754254/)
 
 > `github`用户setting ->Developer settings-->Personal access tokens-->Generate token
-
