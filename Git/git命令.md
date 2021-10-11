@@ -133,11 +133,8 @@
 
 - 提交到远程分支
   - 提交指定分支：`git push origin <分支名>`
-  
-  - `git push -u origin`
-  
-    `-u`选项会指定一个默认主机，以后可以使用不带任何参数的`git push`
-  
+  - 提交所有分支：`git push -u origin`
+
 - 提交到`Gerrit`中
   - `git push origin HEAD:refs/for/<分支名>`
     - `origin` : 代表远程仓库
@@ -347,15 +344,9 @@
 
 #### 3、拉取远程代码，但本地代码有修改
 
-1. `git fetch`
-
-2. `git rebase`
-
-3. `git rebase --continue`
-
-   若有冲突：
-
-   - 解决冲突后add
-   - 再用`git rebase --continue`将HEAD指针移动至最新的commit处
-
+1. `git fetch origin`
+2. `git rebase origin/<branch-name>`
+3. 若有冲突：
+   - 解决冲突后`git add`
+   - `git rebase --continue`
 4. `git push`
