@@ -135,9 +135,9 @@
 
   - `git push origin <branch name>`：提交指定分支
 
-    - `git push -u origin <branch name>`：将分支提交到`origin`，同时指定`origin`为默认主机
+  - `git push -u origin <branch name>`：将分支提交到`origin`，同时指定`origin`为默认主机
 
-      `-u`：指定默认主机，后面提交时可以直接使用`git push`，不带`origin`与分支名
+    `-u`：指定默认主机，后面提交时可以直接使用`git push`，不带`origin`与分支名
 
 - **提交到`Gerrit`中**
 
