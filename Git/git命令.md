@@ -27,7 +27,7 @@
 
 #### 4、查看log（`git log`）
 - `git log`：查看commit id
-
+  - `git log --graph`：图形化显示分支
 - `git reflog`：查看所有提交过的commit id，包括删除过的
 
 #### 5、分支操作（`git branch`）
@@ -83,13 +83,11 @@
 
   > `fetch`不会直接将拉取的commit接到本地分支的最后，而是在本地最后一次==push的commit处==再拉取一个新的分支
 
-- `git pull`（相当于以下两条命令）：拉取并合并分支
-  - `git fetch`
-  - `git merge`
+- `git pull`：拉取并合并分支
 
-> 用于从远程获取代码并合并本地的版本
+  > 用于从远程获取代码并合并本地的版本
 
-`git pull`其实就是 `git fetch` 和 `git merge FETCH_HEAD`的简写
+  `git pull`其实就是 `git fetch` 和 `git merge FETCH_HEAD`的简写
 
 - `git pull origin <远程分支名>:<本地分支名>`
   - 拉取origin的远程分支与本地分支合并
