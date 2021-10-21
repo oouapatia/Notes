@@ -48,3 +48,32 @@ class B:virtual public D{};
 class A:virtual public D{};
 class C:public B, public A{};
 ```
+
+### 3、`\n`与`endl`的区别
+
+- `endl`写`\n`外，还调用`flash`函数，刷新缓冲区，把缓冲区里的数据写入文件或屏幕
+
+- `cout << endl;`除了往输出流中插入一个`\n`外，还有刷新输出流的作用
+
+  `cout << endl;` == `cout << '\n' <<flush;`
+
+- 在没必要刷新输出流的时候应该尽量使用`cout << '\n'`，过多的`endl`是影响程序执行效率低下的因素之一
+
+### 4、`sizeof`与`alignof`的区别
+
+- `sizeof`值是给定数据类型所需的总大小
+
+- `alignof`值是结构中最大元素的对齐要求
+
+**例**
+
+```
+typedef struct {
+	short a;
+	long b;
+}s1;
+```
+
+- `sizeof(s1)`值为16，为整个结构体`s1`所需的总大小
+
+- `alignof(s1)`值为8，为结构体中最大元素`long`的对齐要求
