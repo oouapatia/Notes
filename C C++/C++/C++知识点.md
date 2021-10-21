@@ -1,3 +1,5 @@
+[toc]
+
 ### 1、引用
 
 **引用初始化以后不能被改变，指针可以改变所指的对象**
@@ -46,14 +48,3 @@ class B:virtual public D{};
 class A:virtual public D{};
 class C:public B, public A{};
 ```
-
-### 3、`const`
-
-1. `const`定义具有类型的常量，用来代替宏定义
-
-   - `const float PI = 3.1415;`
-   - 上述定义语句比宏定义要好，因为**`const`具有类型检测**，但是宏定义没有类型检测
-
-2. 用以区分函数特征标
-
-   函数本身使用`const`来修饰，或者某个参数使用`const`来修饰，都能使得函数的特征标发生改变，从而可以被重载
