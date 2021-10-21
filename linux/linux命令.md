@@ -1,6 +1,6 @@
 [toc]
 
-[[Linux命令大全](https://man.linuxde.net/)](https://man.linuxde.net/)
+[Linux命令大全](https://man.linuxde.net/)
 
 ### 一、快捷键
 
