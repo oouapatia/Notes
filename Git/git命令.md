@@ -117,6 +117,7 @@
 
 #### 8、提交到本地仓库（`git commit`）
 - `git commit -m "message"`
+  
   - 使用`-m` 参数，可以直接在引号中输入备注
   - 不使用`-m`参数，会打开vim，在vim中编辑备注
 - `git commit -a -m "message"`
@@ -126,7 +127,7 @@
   
   - ==如果在已提交到远程仓库的commit上追加`amend`，会造成远程分支与本地分支不一致，需要重新拉取合并分支后再push==
   
-    `--amend`一般应用于没有push到远程分支的`commit`上
+    **`--amend`一般应用于没有push到远程分支的`commit`上**
 
 #### 9、提交到远程仓库（`git push`）
 提交到远程分支
