@@ -38,6 +38,12 @@
 |`systemctl reload *.service`|重新加载服务配置文件|
 |`systemctl status *.service`|查询服务运行状态|
 
+#### 2、查看系统版本号
+
+- `cat /etc/issue`
+- `cat /etc/lsb-release`
+- `uname -a`
+
 ### 三、命令
 
 #### 1、`scp`

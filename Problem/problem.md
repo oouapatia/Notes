@@ -56,6 +56,14 @@
 
 
 
+- EasyConnect登录后几秒闪退
+
+  在登录进度条大概70%左右执行命令
+
+  ` sudo /bin/bash /usr/share/sangfor/EasyConnect/resources/shell/sslservice.sh`
+
+
+
 ### 4、Typora
 
 > 在其他地方修改后，有时需要重新启动typora，其内容才会重新加载
