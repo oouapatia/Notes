@@ -10,7 +10,35 @@
 - `ctrl alt F6`：进命令行界面
 - `ctrl alt F1`：切回图形界面
 
-### 二、命令
+### 二、`linux`操作
+
+#### 1、关闭应用自启动
+
+1. 查找开机自启的应用
+
+   `systemctl list-unit-files |grep enabled`
+
+2. 停止服务
+
+   `systemctl stop *.service`
+
+3. 取消开机运行
+
+   `systemctl disable *.service`
+
+| 操作 | 命令 |
+| ---- | ---- |
+| `systemctl list-unit-files` | 显示出开启的和未开启的程序 |
+|`systemctl is-enabled servicename.service`|查询服务是否开机启动|
+|`systemctl enable *.service`| 开机运行服务|
+|`systemctl disable *.service`|取消开机运行|
+|`systemctl start *.service`|启动服务|
+|`systemctl stop *.service`|停止服务|
+|`systemctl restart *.service`|重启服务|
+|`systemctl reload *.service`|重新加载服务配置文件|
+|`systemctl status *.service`|查询服务运行状态|
+
+### 三、命令
 
 #### 1、`scp`
 
