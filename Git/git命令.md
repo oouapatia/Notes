@@ -107,15 +107,14 @@
     ```
 
 #### 7、添加暂存库（`git add`）
-- `git add` 把修改的文件提交到暂存区
+- `git add`：把修改的文件提交到暂存区
 
--  `git add -A`  提交所有变化
-
--  `git add -u`  提交被修改(modified)和被删除(deleted)文件，不包括新文件(new)
-
-- `git add .`  提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
+- `git add -A`：提交所有变化
+- `git add -u` ：提交被修改和被删除文件，不包括新文件
+- `git add .` ：提交新文件和被修改文件，不包括被删除文件
 
 #### 8、提交到本地仓库（`git commit`）
+
 - `git commit -m "message"`
   
   - 使用`-m` 参数，可以直接在引号中输入备注
@@ -159,15 +158,15 @@
   - `git push --force origin <分支名> `
 
 #### 10、回退版本（`git reset`）
-- 取消在暂存区中的某个文件
+- **取消在暂存区中的某个文件**
 
   `git reset HEAD <filename>`
 
-- 取消暂存当前路径下所有的文件
+- **取消暂存当前路径下所有的文件**
 
   `git reset HEAD .`
 
-- 取消最近的n次提交或退至指定`commit id`
+- **取消最近的n次提交或退至指定`commit id`**
 
   `git reset HEAD~n` 或 `git reset <commit id>`
 
@@ -178,31 +177,27 @@
   - 同步指定的commit id的内容到当前，==包含提交==。（即回退到commit id版本，但修改**会被`commit`**到本地仓库）
 
 #### 11、移除（`git clean`）
-- 移除工作区的某个文件
+- `git clean -f <filename>`：移除工作区的某个文件
 
-  `git clean -f <filename>`
-
-- 移除工作区所有未追踪文件
-
-  `git clean -df`
+- `git clean -df`：移除工作区所有未追踪文件
 
 #### 12、撤销（`git checkout`）
-- 撤销工作区（还未添加至暂存区）某个文件的修改
+- **撤销工作区（还未添加至暂存区）某个文件的修改**
 
   `git checkout <filename>`
 
   `git checkout .`
 
-- 撤销添加到暂存区的文件
+- **撤销添加到暂存区的文件**
 
   使用`git reset HEAD <filename>`命令
 
-- 以及添加至本地仓库
+- **撤销添加至本地仓库的文件**
 
   进行版本回退`git reset HEAD~1`或`git reset <commit id>`
 
 #### 13、删除（`git rm`）
-- 将文件从暂存区和工作区删除
+- 将文件从**暂存区和工作区**删除
 
   `git rm <filename>`
 
@@ -210,20 +205,21 @@
 
   `git rm -f <filename>`
 
-- 将文件从暂存区删除，但保留在工作区中（仅从跟踪清单中删除）
+- 将文件**从暂存区删除**，但**保留在工作区**中（仅从跟踪清单中删除）
 
   `git rm --cached <filename>`
 
-- 递归删除
+- **递归删除**
 
   `git rm -r <directory>`
 
 #### 14、查看文件差异（`git diff`）
-- 查看修改后与原文件的不同
+
+- **查看修改后与原文件的不同**
 
   `git diff`
 
-- 查看已经暂存起来的文件和上次提交的文件的差异
+- **查看已经暂存起来的文件和上次提交的文件的差异**
 
   `git diff --cached`
 
@@ -235,13 +231,13 @@
 
   `git diff --stat`
 
-- 图像化查看不同
+- **图像化查看不同**
 
   `git difftool`
 
   - `difftool`需要配置
 
-- 本地分支与远程分支比较
+- **本地分支与远程分支比较**
 
   - 显示远程分支与本地分支差异
 
@@ -253,32 +249,61 @@
 
 #### 15、`rebase`（`git rebase`）
 
+| `rebase`指令 | 作用                                |
+| ------------ | ----------------------------------- |
+| `p, pick`    | 使用提交                            |
+| `r, reword`  | 使用提交，但修改提交说明            |
+| `e, edit`    | 使用提交，但停止以便进行提交修补    |
+| `s, squash`  | 使用提交，但和前一个版本融合        |
+| `f, fixup`   | 类似于 "squash"，但丢弃提交说明日志 |
+| `x, exec`    | 使用 shell 运行命令（此行剩余部分） |
+| `d, drop`    | 删除提交                            |
+
 [【Git】rebase 用法小结](https://www.jianshu.com/p/4a8f4af4e803)
 
 ==**不要通过`rebase`对任何已经提交到公共仓库中的commit进行修改**==
 
 > 可以对某一段线性提交历史进行编辑、删除、复制、粘贴
 
-- 合并多个commit为一个完整commit
-- 将某一段commit粘贴到另一个分支上
+- **合并多个commit为一个完整commit**
+
+	1. ` git rebase -i  [startpoint]  [endpoint]`
+
+		- `-i`：`--interactive`，弹出交互式的界面让用户编辑完成合并操作
+
+		- `[startpoint]` `[endpoint]`：指定了一个编辑区间
+
+			若不指定`[endpoint]`，则该区间默认终点为当前分支`HEAD`所指的`commit`
+
+	2. 将`pick`改为`s`（`squash`）
+
+- **将某一段commit粘贴到另一个分支上**
+
+	1. `    git rebase   [startpoint]   [endpoint]  --onto  [branchName]`
+
+		**注：**`[startpoint]   [endpoint]`：指定的是一个**前开后闭**的区间，`startpoint`应当为要包含commit的前一个
+
+	2. 切换到`branchName`
+
+	3. 将`branchName`所指的`commit_id`设置为当前`HEAD`所指的`commit_id`：`git reset --hard commit_id`
 
 #### 16、`stash`（`git stash`）
 
-- 将工作区的修改临时保存在暂存区
+- **将工作区的修改临时保存在暂存区**
 
   `git stash`
 
-- 将暂存区的内容恢复到工作区
+- **将暂存区的内容恢复到工作区**
 
   `git stash pop`
 
   `git stash apply`
 
-- 查看暂存区有哪些临时修改
+- **查看暂存区有哪些临时修改**
 
   `git stash list`
 
-- 丢弃暂存区的修改
+- **丢弃暂存区的修改**
 
   `git stash drop stash@{$num}`
 
@@ -286,29 +311,29 @@
 
 #### 17、`tag`（`git tag`）
 
-- 创建标签
+- **创建标签**
 
   `git tag <tag name>`
 
   - 标签默认打在最新的`commit`（`HEAD`）上
 
-- 指定要创建的标签的位置
+- **指定要创建的标签的位置**
 
   `git tag <tag name> <commit id>`
 
-- 新建带有标签的tag
+- **新建带有标签的tag**
 
   `git tag -a <tag name> -m ""`
 
-- 获取tag列表
+- **获取tag列表**
 
   `git tag -l`
 
-- 查看具体tag
+- **查看具体tag**
 
   `git show <tag name>`
 
-- 删除tag
+- **删除tag**
 
   `git tag -d <tag name>`
 
@@ -324,7 +349,9 @@
 
 2. 修改commit内容，将HEAD指针指向需要更改的commit上
 
-   `git rebase <commit_id>^ --interactive`
+   `git rebase -i commit_id^`
+
+   `-i`：`--interactive`，弹出交互式的界面让用户编辑完成合并操作	
 
    找到需要更改的`commit`，将行首的`pick`改为`edit`
 
@@ -369,7 +396,7 @@
 
 > `github`用户setting ->Developer settings-->Personal access tokens-->Generate token
 
-#### 3、拉取远程代码，但本地代码有修改
+#### 3、`git push`有冲突，不产生合并记录提交
 
 1. `git fetch origin`
 2. `git rebase origin/<branch-name>`
