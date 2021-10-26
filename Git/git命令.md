@@ -251,7 +251,19 @@
 
     `git diff --name-status <remote-name> <local-name>`
 
-#### 15、stash（`git stash`）
+#### 15、`rebase`（`git rebase`）
+
+[【Git】rebase 用法小结](https://www.jianshu.com/p/4a8f4af4e803)
+
+==**不要通过`rebase`对任何已经提交到公共仓库中的commit进行修改**==
+
+> 可以对某一段线性提交历史进行编辑、删除、复制、粘贴
+
+- 合并多个commit为一个完整commit
+- 将某一段commit粘贴到另一个分支上
+
+#### 16、`stash`（`git stash`）
+
 - 将工作区的修改临时保存在暂存区
 
   `git stash`
@@ -272,7 +284,8 @@
 
   `git stash clear`
 
-#### 16、tag（`git tag`）
+#### 17、`tag`（`git tag`）
+
 - 创建标签
 
   `git tag <tag name>`
