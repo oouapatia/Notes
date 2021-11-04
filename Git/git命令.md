@@ -81,6 +81,8 @@
 
 - `git fetch`：将远程commit拉取到本地
 
+  `git fetch origin <分支名>`：若不指定分支名，默认为`master`分支
+
   > `fetch`不会直接将拉取的commit接到本地分支的最后，而是在本地最后一次==push的commit处==再拉取一个新的分支
 
 - `git pull`：拉取并合并分支
@@ -110,8 +112,39 @@
 - `git add`：把修改的文件提交到暂存区
 
 - `git add -A`：提交所有变化
+
 - `git add -u` ：提交被修改和被删除文件，不包括新文件
+
 - `git add .` ：提交新文件和被修改文件，不包括被删除文件
+
+- `git add -p`：[使用 git add -p 整理 patch](https://www.cnblogs.com/zqb-all/p/13020293.html)
+
+	> `-p`, `--patch` 交互地在索引和工作树之间选择补丁块并将它们添加到索引中。这让用户有机会在将修改后的内容添加到索引之前查看差异。
+	>
+	> 这可以有效地运行 add --interactive，但是会绕过初始命令菜单，而直接跳转到 patch 子命令。有关详细信息，请参见`‘交互模式’'。
+
+	能够交互式选择代码片段，选择需要`add`的代码片段
+
+	- 输入`git add -p`进入`patch mode`，此时`git`会自动将改动切分成多个片段，并展示第一个片段，提示进行选择；提示语句：`Stage this hunk [y, n, q, a, d, /, s, e, ?]`
+
+		| 字符 | 含义                             |
+		| ---- | -------------------------------- |
+		| `y`  | 暂存此块                         |
+		| `n`  | 不暂存此块                       |
+		| `q`  | 退出，不暂存此块与剩余区块       |
+		| `a`  | 暂存此块与文件后面的所有的区块   |
+		| `d`  | 不暂存此块与此文件后面所有的区块 |
+		| `g`  | 选择并跳转至一个区块             |
+		| `/`  | 搜索与给定正则表达式匹配的区块   |
+		| `j`  | 暂不决定，转至下一个未决定的区块 |
+		| `J`  | 暂不决定，转至下一个区块         |
+		| `k`  | 暂不决定，转至上一个未决定的区块 |
+		| `K`  | 暂不决定，转至上一个区块         |
+		| `s`  | 将当前区块划分成多个较小的区块   |
+		| `e`  | 手动编辑当前的区块               |
+		| `？` | 显示帮助                         |
+
+	- 挑选完后，使用`git diff --cached`确认，或者在提交之后`git show`确认改动
 
 #### 8、提交到本地仓库（`git commit`）
 
@@ -247,7 +280,7 @@
 
     `git diff --name-status <remote-name> <local-name>`
 
-#### 15、`rebase`（`git rebase`）
+#### 15、变基操作（`git rebase`）
 
 | `rebase`指令 | 作用                                |
 | ------------ | ----------------------------------- |
@@ -287,7 +320,7 @@
 
 	3. 将`branchName`所指的`commit_id`设置为当前`HEAD`所指的`commit_id`：`git reset --hard commit_id`
 
-#### 16、`stash`（`git stash`）
+#### 16、保存工作区内容（`git stash`）
 
 - **将工作区的修改临时保存在暂存区**
 
@@ -309,7 +342,7 @@
 
   `git stash clear`
 
-#### 17、`tag`（`git tag`）
+#### 17、标签（`git tag`）
 
 - **创建标签**
 
@@ -336,6 +369,16 @@
 - **删除tag**
 
   `git tag -d <tag name>`
+
+#### 18、`patch`（`git format-patch`&`git am`）
+
+[如何使用git 生成patch 和打入patch](https://blog.csdn.net/liuhaomatou/article/details/54410361)
+
+- **生成patch**
+	- `git format-patch <commit_id>`
+	- 
+
+
 
 ### 二、git操作
 
@@ -396,11 +439,19 @@
 
 > `github`用户setting ->Developer settings-->Personal access tokens-->Generate token
 
-#### 3、`git push`有冲突，不产生合并记录提交
+#### 3、本地有修改提交到远程，但不确定是否与远程有冲突
 
-1. `git fetch origin`
-2. `git rebase origin/<branch-name>`
-3. 若有冲突：
-   - 解决冲突后`git add`
-   - `git rebase --continue`
-4. `git push`
+> `git push`有冲突提交，不产生合并记录提交
+
+1. 本地添加提交（`add commit`）
+
+2. `git fetch origin`
+
+3. `git rebase origin/<branch-name>`
+
+4. 若有冲突：
+	- 解决冲突后`git add`
+	- ``git rebase --continue`
+
+5. `git push`
+
