@@ -38,43 +38,84 @@
 
   如：`{"love":["乒乓球", "羽毛球", "LOL"]}`
 
-### 二、使用
 
-c语言函数库写`JSON`文件：
 
-#### 1、从缓冲区中解析出`JSON`结构：
+**结构体**
 
-`extern cJSON *cJSON_Parse(const char *value);`
+```
+typedef struct cJSON {
+       struct cJSON*next,*prev;           /* 遍历数组或对象链的前向或后向链表指针*/
+       struct cJSON *child;                   /*数组或对象的孩子节点*/
+       int type;                                     /* key的类型*/
+       char *valuestring;                       /*字符串值*/
+       int valueint;                                /* 整数值*/
+       double valuedouble;                    /* 浮点数值*/
+       char *string;                               /* key的名字*/
+} cJSON;
+```
+
+**说明：**
+
+1. cJSON是使用链表来存储数据的，其访问方式很像一颗树。每一个节点可以有兄弟节点，通过next/prev指针来查找，它类似双向链表；每个节点也可以有孩子节点，通过child指针来访问，进入下一层。只有节点是对象或数组时才可以有孩子节点
+
+2. type是键（key）的类型，一共有7种取值，分别是：False，Ture，NULL，Number，String，Array，Object
+
+	- 若是Number类型，则valueint或valuedouble中存储着值。若期望的是int，则访问valueint，若期望的是double，则访问valuedouble，可以得到值。
+
+	- 若是String类型的，则valuestring中存储着值，可以访问valuestring得到值。
+
+3. string中存放的是这个节点的名字，可理解为key的名称。
+
+### 二、函数
+
+#### 1、`cJSON_Parse`
+
+> 从缓冲区中解析出`JSON`结构
+
+- `extern cJSON *cJSON_Parse(const char *value);`
 
 解析一块`JSON`数据返回`cJSON`结构，在使用完之后调用`cJSON_Delete`函数释放`json`对象结构
 
-#### 2、将传入的`JSON`结构转化为字符串
+#### 2、`cJSON_Print`
 
-`extern char *cJSON_Print(cJSON *item);`
+> 将传入的`JSON`结构转化为字符串
+
+- `extern char *cJSON_Print(cJSON *item);`
 
 可用于输出到输出设备，使用完之后`free(char *)`
 
-#### 3、将`JSON`结构所占用的数据空间释放
+#### 3、`cJSON_Delete`
 
-`void cJSON_Delete(cJSON *c);`
+> 将`JSON`结构所占用的数据空间释放
 
-#### 4、创建一个值类型的数据
+- `extern void cJSON_Delete(cJSON *c);`
 
-`extern cJSON *cJSON_CreateNumber(double num);`
+#### 4、`cJSON_Create**()`
 
-`extern cJSON *cJSON_CreateString(const char *string);`
+> 创建json
 
-`extern cJSON *cJSON_CreateArray(void);`
+- **创建相应类型**
+   - `extern cJSON *cJSON_CreateNull(void);  `
+   - `extern cJSON *cJSON_CreateTrue(void);  `
+   - `extern cJSON *cJSON_CreateFalse(void);  `
+   - `extern cJSON *cJSON_CreateBool(int b);  `
+   - `extern cJSON *cJSON_CreateNumber(double num);  `
+   - `extern cJSON *cJSON_CreateString(const char *string);  `
+   - `extern cJSON *cJSON_CreateArray(void);  `
+   - `extern cJSON *cJSON_CreateObject(void);`
+- **创建数组类型**
+   - `extern cJSON *cJSON_CreateIntArray(const int *numbers,int count);  `
+   - `extern cJSON *cJSON_CreateFloatArray(const float *numbers,int count);  `
+   - `extern cJSON *cJSON_CreateDoubleArray(const double *numbers,int count);  `
+   - `extern cJSON *cJSON_CreateStringArray(const char **strings,int count);  `
 
-#### 5、创建一个对象（文档）
+#### 5、`cJSON_AddItemTo**()`
 
-`extern cJSON *cJSON_CreateObject();`
+> 添加Item
 
-#### 6、数组创建及添加
-
-`cJSON *cJSON_CreateIntArray(const int *number, int count);`
-
-`void cJSON_AddItemToArray(cJSON *array, cJSON *item);`
+- `extern void cJSON_AddItemToArray(cJSON *array, cJSON *item);  `
+- `extern void cJSON_AddItemToObject(cJSON *object,const char *string,cJSON *item);  `
+- `extern void cJSON_AddItemToObjectCS(cJSON *object,const char *string,cJSON *item);`
 
 #### 7、`JSON`嵌套
 
@@ -125,5 +166,61 @@ c语言函数库写`JSON`文件：
   for (pos = (head)->child; pos != NULL; pos = pos->next) {}
   ```
 
-  
 
+**注意：**
+
+- 有归属的json对象itemA调用cJSON_AddItemToObject添加到其他对象中，会带入itemA的next对象
+
+```c++
+cJSON *itemA;
+itemA = cJSON_GetObjectItem(root_a,"itemA");
+cJSON_AddItemReferenceToObject(root_b,"itemA",itemA);
+// 在这种情况下，采用cJSON_AddItemReferenceToObject来实现，不要用cJSON_AddItemToObject函数
+// itemA的内存释放不归属于root_b，而是归属于root_a
+```
+
+###  三、cJSON内存泄露问题注意
+
+[cjson内存泄漏问题注意事项](https://blog.csdn.net/u013564851/article/details/107221600?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link)
+
+#### 1、`cJSON_Parse()`
+
+> 将字符串转换为json格式，函数中申请了一块内存给root，所以在最后要释放root
+
+```c++
+root = cJSON_Parse(next);
+cJSON_Delete(root);	// 释放cJSON_Parse()分配出来的内存空间
+```
+
+#### 2、`cJSON_Print()`
+
+含有`cJSON_PrintUnformatted()`函数
+
+> 函数将json数据转换为字符串，这个函数申请了一段内存给out，所以在使用完后也要释放
+
+```c++
+out = cJSON_Print(root);
+cJSON_free(out);	//  由于out不是json指针格式的数据格式，使用cJSON_free(out)释放即可
+```
+
+#### 3、`cJSON_Create**()`
+
+> 将一个字符串转换为json对象，函数里面也涉及内存分配，用完以后也要使用`cJSON_Delete()`释放
+
+```C++
+cJSON* json = cJSON_CreateObject();
+cJSON* newJson = cJSON_Create**();
+cJSON_AddItemToObject(json, "abc", newJson);
+```
+
+**注：**
+
+- 若`cJSON* newJson = cJSON_Create**();`创建后，通过`cJSON_AddItemToObject( json, "test", newJson );`（或者`cJSON_AddItemToArray`），加入到数组或者object中，**不需要单独释放newJson** ，删除json时被添加的`item`（此处为申请的`newJson`）同时也会被删除
+
+#### 4、申请释放对应关系
+
+| 申请内存       | 释放内存       |
+| -------------- | -------------- |
+| `cJSON_Prase`  | `cJSON_Delete` |
+| `cJSON_Create` | `cJSON_Delete` |
+| `cJSON_Print`  | `cJSON_free`   |
