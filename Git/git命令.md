@@ -23,7 +23,8 @@
 
 #### 3、克隆远程库（`git clone`）
 
-`git clone git@github.com:xxx/xxx.git`
+- `git clone git@github.com:xxx/xxx.git`
+- `git clone https://github.com:xxx/xxx.git`
 
 #### 4、查看log（`git log`）
 - `git log`：查看commit id
