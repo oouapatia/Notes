@@ -440,19 +440,17 @@
 
 > `github`用户setting ->Developer settings-->Personal access tokens-->Generate token
 
-#### 3、本地有修改提交到远程，但不确定是否与远程有冲突
+#### 5、本地有修改提交到远程，但不确定是否与远程有冲突
 
 > `git push`有冲突提交，不产生合并记录提交
 
 1. 本地添加提交（`add commit`）
-
 2. `git fetch origin`
-
 3. `git rebase origin/<branch-name>`
-
 4. 若有冲突：
 	- 解决冲突后`git add`
 	- ``git rebase --continue`
-
 5. `git push`
+
+#### 6、在另外 一台电脑上管理`github`项目
 
