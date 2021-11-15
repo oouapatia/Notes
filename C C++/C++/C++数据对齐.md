@@ -23,6 +23,8 @@
 - 如果一个结构体中定义了一个`double`与`int`，则最大成员变量是`double`，大小为8
 
   结构体大小虽然为4（`int`）+8（`double`）=12字节，但会**补齐为8的整数倍16**；这样做是为了处理结构体数组时，每一个结构体内的每一个成员变量都处于边界上
+  
+- 如果结构体中的子结构体最大则需为子结构体大小的整数倍
 
 **例：**
 
@@ -51,7 +53,7 @@ typedef struct {
 
 **例：**
 
-```
+```c++
 typedef struct {
 	short a;
 	long b;
@@ -110,34 +112,11 @@ typedef struct {
 #include <iostream>
 using namespace std;
 
-typedef struct {
-    char c;
-	int n;
-	short s;
-}s0;
-
-typedef struct {
-	short a;
-	long b;
-}s1;
-
-typedef struct{
-	char c;
-	s1 d;
-	long long e;
-}s2;
-
-typedef struct {
-	char a;
-	char b;
-	int c;
-}s3;
-
-typedef struct {
-	char a;
-	int b;
-	char c;
-}s4;
+typedef struct { char c; int n; short s; }s0;
+typedef struct { short a; long b; }s1;
+typedef struct{ char c; s1 d; long long e; }s2;
+typedef struct { char a; char b; int c; }s3;
+typedef struct { char a; int b; char c; }s4;
 
 int main(){
 	cout << "char:" << sizeof(char) << endl;
